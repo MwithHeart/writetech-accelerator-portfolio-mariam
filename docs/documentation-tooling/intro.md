@@ -10,7 +10,7 @@ This project involved auditing and restructuring documentation for PixiEditor us
 ## Live Site
 [PixiEditor](https://pixieditor.net) site
 
-## What I Improved
+## Improved Areas
 1. The tone and comprehensiveness of the **Procedural Animations** page. As well as the consistency of terms used and the headings.  
 **Example improvement:** 
 - **Previous**:

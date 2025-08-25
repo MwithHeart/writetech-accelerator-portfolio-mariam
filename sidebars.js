@@ -34,7 +34,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'API Documentation & OpenAPI',
-      items: ['api-documentation/intro', 'api-documentation/api-endpoint'],
+      items: ['api-documentation/intro', 'api-documentation/getting-started', 'api-documentation/reference/generate-invoice', 'api-documentation/reference/verify'],
     },
     {
       type: 'category',
