@@ -1,16 +1,21 @@
 ---
-title: POST/verify
+title: POST/payment/verify
 ---
 
 # Verify a payment
 This is used to verify the status of a payment by using its issueID. 
 
-## Request Components
-> **Request Body:**  
+> **Authentication details:**   
+
+Authorization: Bearer YOUR_API_KEY
+
+---
+## Request parameters
+> **Body parameter:**  
     - **ID:** The transaction ID (issueID). It is a **required** parameter
     - **Subaccount:** The subaccount. It is optional.
 
-Example:
+### Request example:
 ```
 {
 "id": "4cddf021-e908-4675-9ca3-59ad3b60046d_10_1721495354134",
@@ -18,13 +23,9 @@ Example:
 }
 ```
 
-
-> **Required Header:**   
-
-  -  **Authorization**: (YOUR_API_KEY)
-
 ****
-## Example JSON response
+## Response
+### Response example
 ```
 {
     "status": "success",
@@ -104,14 +105,12 @@ Example:
 
 ```
 
-## Some common errors
-
-1. Wrong API key  
-**Error: 403 (Forbidden)**
+## Error Handling
+Example
+1. **403 Forbidden** - Invalid API key  
 ```
 {
     "error": "sender must be a valid Chimoney user ID"
 }
 ```
-
 

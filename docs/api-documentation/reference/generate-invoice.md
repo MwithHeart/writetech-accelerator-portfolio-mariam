@@ -1,29 +1,54 @@
 ---
-title: POST/Invoice
+title: POST/invoice/generate
 ---
 
 # AI Invoice Data Generator
-The AI Invoice Data Generator generates invoice data based on clear prompts in the request body. 
+Generates invoice data based on clear prompts in the request body. 
 
-## Request Components
-> **Request Body:**  
+> **Authentication details:**   
+
+Authorization: Bearer YOUR_API_KEY
+
+---
+## Request parameters
+> **Body parameter:**  
 
 This parameter is **required** and it should contain a clear instruction to generate an invoice.  
+**Data Type:**  
+```instruction``` → string, required
 
-Example:
+### Request example:
 ```
 {
   "instruction": "Create an invoice from Jane Doe to Chimoney Incorporated for Web Dev Service which I provided for 4 months at $5/month and for Project Management cost of $100 with tax rate of 5%."
 }
 ```
 
-> **Required Header:**   
-
-Authorization: (YOUR_API_KEY)
 
 ****
-## Example JSON response
-In the JSON response below, the status is successful and it displays an invoice showing important details such as invoice number & date, sender, recipient, and others. 
+
+## Code sample
+A code sample in curl:
+```
+curl -X POST https://api.example.com/invoice/generate \
+-H "Authorization: Bearer YOUR_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{"instruction": "Create an invoice from Jane Doe to Chimoney Incorporated for Web Dev Service which I provided for 4 months at $5/month and for Project Management cost of $100 with tax rate of 5%"}'
+
+```
+
+## Response
+
+### Response Schema
+
+| Field                 | 	Type	   	    |  Description    |
+| -------               | --------------    | --------------- |
+| ```invoiceNumber```	| string	        | Unique identifier for invoice   |
+| ```dueDate```         | date	      	    | The due date for the invoice  |
+| ```items```           | array             | List of invoice line items    |
+
+### Response example 
+In the JSON response below, the status is successful (Code 200) and it displays an invoice showing important details such as invoice number & date, sender, recipient, and others. 
 ```
 {
     "status": "success",
@@ -103,18 +128,37 @@ In the JSON response below, the status is successful and it displays an invoice 
 
 ```
 
-## Some common errors
 
-1. Absence of or wrong API key  
-**Error: 401 (Unauthorized)**
+
+## Error handling
+
+Example:
+1. **400 Bad request** - Bad request
+```
+{
+    "status": "error",
+    "type": "Validation Error",
+    "code": "INVALID_REQUEST",
+    "message": "\"instruction\" is required"
+}
+```
+
+2. **401 Unauthorized** - Invalid API key
 ```
 {
     "error": "key not valid. Generate a new one from the developer portal"
 }
 ```
 
-Endpoint path and method (e.g., GET /users)  
-Clear description of what it does  
-Request parameters or request body (list in table format if needed)  
-Example JSON response (formatted and explained)  
-Notes on common errors, edge cases, or limitations  
+3. **403 Forbidden**  - Access to this request is forbidden
+```
+{
+    "error": "sender must be a valid Chimoney user ID"
+}
+```
+
+4. **500 Internal Server Error** - Unexpected error occurred
+```
+"error": "internal_server_error"
+```
+---
