@@ -14,16 +14,14 @@ With a background in Mechanical Engineering and a deep interest in sustainabilit
 
 I aim to bridge the gap between people and complex technological concepts because I believe that docs should bring clarity not confusion.
 
-## 📁 Project Modules
+## 📁 Core Skills
 
-| Module | Final Deliverables |
-|--------|--------------------- |
-| [Documentation Tooling & Static Site Generators](./documentation-tooling/intro) | How-to guide for setting up a docs-as-code workflow using Docusaurus | 
-| [API Documentation & OpenAPI](./api-documentation/intro) | Improved documentation for selected endpoints from a real or public API |
-| [Documentation Automation](./docs-automation/intro) |  Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions | 
-| [AI for Documentation](./ai-documentation/intro) | Comparison of AI tools or prompt-based documentation using your own examples | 
-| [DevOps & Cloud Documentation](./devops-cloud-documentation/intro) | Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) |
-| [Technical Writing in Web3](./web3-documentation/intro)| One of: user guide for a Web3 tool, white paper draft, or improved API doc for a Web3 platform | 
+1. [Documentation Tooling & Static Site Generators](./documentation-tooling/intro) - How-to guide for setting up a docs-as-code workflow using Docusaurus 
+2. [API Documentation & OpenAPI](./api-documentation/intro) - Improved documentation for selected endpoints from Chimoney API 
+3. [Documentation Automation](./docs-automation/intro) -  Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions  
+4. [AI for Documentation](./ai-documentation/intro) - Comparison of AI tools or prompt-based documentation using your own examples 
+5. [DevOps & Cloud Documentation](./devops-cloud-documentation/intro) - Step-by-step guide for a DevOps/cloud tool or process (e.g., CI/CD, deployment) 
+6. [Technical Writing in Web3](./web3-documentation/intro)- One of: user guide for a Web3 tool, white paper draft, or improved API doc for a Web3 platform 
 
 
 ## Contact Me
