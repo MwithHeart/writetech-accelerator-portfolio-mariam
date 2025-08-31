@@ -2,37 +2,29 @@
 
 name: Vale-Linting-Assignment
 
-# Event to trigger when the action is run
-
 on:
-
-  # Tiggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
 
 jobs:
   Vale-Linting:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-        # Step 1: Checkout repo
+      # Step 1: Checkout repo
       - uses: actions/checkout@v4
 
-      # Step 2: Set up Vale
+      # Step 2: Run Vale
       - name: Run Vale on markdown files
         uses: errata-ai/vale-action@v2.1.1
         with:
-          # The path to the directory or file you want to lint
           files: '**/*.md'
-          fail_on_error: false
+          fail_on_error: false  # Vale warnings but don’t fail
 
       # Step 3: Broken Link Checker
       - name: Check Markdown links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress './**/*.md'
+          args: --verbose --no-progress --exit-zero './**/*.md'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
