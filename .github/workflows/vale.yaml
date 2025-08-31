@@ -1,30 +1,40 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Vale-Linting-Assignment
+name: Vale Linting Assignment
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - main
+  pull_request:
 
 jobs:
-  Vale-Linting:
+  lint:
     runs-on: ubuntu-latest
+
     steps:
       # Step 1: Checkout repo
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       # Step 2: Run Vale
-      - name: Run Vale on markdown files
-        uses: errata-ai/vale-action@v2.1.1
+      - name: Run Vale
+        uses: errata-ai/vale-action@v2
         with:
-          files: '**/*.md'
-          fail_on_error: false  # Vale warnings but don’t fail
-
-      # Step 3: Broken Link Checker
-      - name: Check Markdown links
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --verbose --no-progress --exit-zero './**/*.md'
+          files: .
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 3: Setup Node.js (needed for markdown-link-check)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Step 4: Install markdown-link-check
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+
+      # Step 5: Run markdown-link-check (warn only)
+      - name: Check Markdown Links
+        run: |
+          find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check -q
+        continue-on-error: true
