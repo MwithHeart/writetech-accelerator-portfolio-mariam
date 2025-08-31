@@ -4,8 +4,8 @@ title: Welcome
 
 ---
 
-# My Portfolio
-## 👩🏽‍💻 Who Am I?
+# My portfolio
+## 👩🏽‍💻 Who am I?
 
 I am Mariam Yusuff, a technical writer passionate about simplifying ideas, telling meaningful stories, and creating impact through words. I write with empathy and clarity.   
 
@@ -13,7 +13,7 @@ I aim to bridge the gap between people and complex technological concepts becaus
 
 
 
-## 🤹🏽‍♀️ Core Skills
+## 🤹🏽‍♀️ Core skills
 - [Documentation Tooling & Static Site Generators](./documentation-tooling/intro) 
 - [API Documentation ](./api-documentation/intro) 
 - [Documentation Automation](./docs-automation/intro) 
@@ -22,14 +22,14 @@ I aim to bridge the gap between people and complex technological concepts becaus
 - [Technical Writing in Web3](./web3-documentation/intro)
 
 
-## Contact Me
+## Contact me
 - 📞 +2348069794294   
 - 📩 mariamyusuff0000@gmail.com
 
 
-## 🔗 Additional Links
+## 🔗 Additional links
 - [GitHub](https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam)
 - [LinkedIn](https://linkedin.com/in/yusuff-mariam)
 - [Hashnode](https://mwithheart.hashnode.dev/)
 
-Thanks for checking out my work!
+Thanks for checking out my work

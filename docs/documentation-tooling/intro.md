@@ -4,13 +4,14 @@ title: Project Overview
 toc_min_heading: 2
 toc_max_heading: 6
 ---
-# Documentation Tooling Project (PixiEditor)
+
+# Documentation tooling project (PixiEditor)
 This project involved auditing and restructuring documentation for PixiEditor using Docusaurus.
 
-## Live Site
+## Live site
 [PixiEditor](https://pixieditor.net) site
 
-## Improved Areas
+## Improvements 
 1. The tone and comprehensiveness of the **Procedural Animations** page. As well as the consistency of terms used and the headings.  
 **Example improvement:** 
 - **Previous**:
@@ -21,7 +22,7 @@ This project involved auditing and restructuring documentation for PixiEditor us
 ![A screenshot of the edited "Intro to Procedural Animations" page](./img/procedural-animations-edited.png)  
 
 
-2. I restructured paragraphs and made them easier to understand. In the image below, the **Node Type** was added as a summary in the middle of a list. I moved it below the list and brough it out as a separate heading instead of a collapsible summary that readers can easily overlook.
+2. I restructured paragraphs and made them easier to understand. In the image below, the **Node Type** was added as a summary in the middle of a list. I moved it below the list and brought it out as a separate heading instead of a collapsible summary that readers can easily overlook.
 **Example improvement:** 
 - **Previous**: 
 ![A screenshot of the "How to Create a Node Graph" page from PixiEditor](./img/nodes-actual.png)
@@ -46,9 +47,8 @@ This project involved auditing and restructuring documentation for PixiEditor us
 
 ## Challenges
 - It was challenging choosing an open source project in the first place. 
-- Getting the icons used in the actual documentation was difficult as pixiEditor made use of Asro framework which I do not have much knowledge of. 
+- Getting the icons used in the actual documentation was difficult as pixiEditor made use of Astro framework which I don't have much knowledge of. 
 
-## What I Learnt
-- I learnt how important documentation is, all over again. I noticed some pages in the PixiEditor docs had probably been updated regarding tone and structure, while some had not.  
-- 
+## Key takeaways
+- I learnt how important consistency is in documentation. I noticed some pages in the PixiEditor docs had a more consistent structure and tone than others. 
 

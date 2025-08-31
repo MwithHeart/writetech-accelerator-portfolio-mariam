@@ -12,18 +12,20 @@ description: Learn animation basics in PixiEditor.
  <!-- import timelineImg from 'site/docs/docs-tooling-img/pix-editor-timeline'; 
 import { Image } from '@site/static/img/pixi-editor-icons'; --->
 
-In this guide, you will learn some important concepts in animation as well as two main ways of animating your project. 
 
-# Getting Started with Animations
-## Timeline
 
-The timeline is the most important component of animation in PixiEditor. Everyting related to animation is managed there.
+# Getting started with animations
+Welcome to PixiEditor. This guide explains some important concepts in animation as well as two main ways of animating your project. 
+
+## Timeline 
+
+The timeline is the most important component of animation in PixiEditor. The timeline manages everything related to animation.
 
 You can access the timeline by either of these:
 - Click the timeline icon on top of the screen.
 - Go to `View -> Open Tab -> Timeline` menu.
 
-### Components of the Timeline
+### Components of the timeline
 The image below shows the interface of the timeline.
 
 ![An image of timeline UI](./img/pix-editor-timeline.png "An image of the timeline interface")
@@ -80,7 +82,7 @@ The image below shows the interface of the timeline.
 
     From left to right:
 
-- Eye Icon - Makes the animation for the entire layer visible. It can be turned on or off
+- Eye Icon - Makes the animation for the entire layer visible. You can turn it on or off.
 - Image Preview - It displays the layer's **base** image.
 - Layer Name, which is Slime in the image above.
 - Dropdown button - The collapse button. It folds in the layer row with its animation, so it can take minimal space.
@@ -104,23 +106,23 @@ The image below shows the interface of the timeline.
     Cel row displays all cels within the layer. One cel consists of a preview image and cel length rectangle (the number of frames a cel should occupy). The cel can be shortened or lengthened by dragging the edges. You can also drag the whole cel to move it around.
 
 
-## Animating Projects
+## Animating projects
 PixiEditor offers two main ways to animate your projects: 
 1. **Frame by Frame** 
 2. **Procedurally**  
 Both methods can be used together freely.
 
 
-## Frame by Frame Animations
+## Frame by frame animations
 
 Frame by frame animation is a traditional method of animating. It involves drawing each frame by hand.
 
 For more information, check out a dedicated [guide for frame by frame animations](https://pixieditor.net/docs/usage/animating/frame-by-frame/). 
 
-## Procedural Animations
+## Procedural animations
 
 PixiEditor gives full freedom over animations, meaning you can animate almost any property within the [Node Graph](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/). 
-It does not involve any manual drawing, unlike frame by frame animations, rather it is a combination of operations and parameters.
+It doesn't involve any manual drawing, unlike frame by frame animations, rather it is a combination of operations and parameters.
 
 Think of it as a set of instructions.
 

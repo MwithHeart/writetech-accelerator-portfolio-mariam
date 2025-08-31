@@ -9,19 +9,19 @@ import sophGraphImg from 'assets/bopGraph.png';
 import resVideo from 'assets/opacity.webm';
 import bopVideo from 'assets/bop.webm';-->
 
-If you're here, it means you want to make some cool animations and that's nice. In this guide, you will learn about procedural animations and why they matter.
+If you're here, it means you want to make some cool animations and that's nice. This is a guide on procedural animations and why they matter.
 
 
 :::tip
-We recommend checking out [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first, to make it easier to understand this guide. With that, let's dive in. 
+We recommend checking out [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first, to make it easier to understand this guide. With that, it's time to dive in. 
 :::
 
-## Introduction to Procedural Animations
+## Introduction to procedural animations
 
-A Procedural Animation is an animation that is generated based on logic and input parameters. It is important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead. 
+A Procedural Animation is an animation that's generated based on logic and input parameters. It's important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead. 
 
 
-## Some Important Animation Nodes 
+## Some important animation nodes 
 
 Here are some important animation nodes which make animating easier:
 
@@ -94,11 +94,11 @@ Here are some important animation nodes which make animating easier:
 -->
 
 - **Time node** - This is essential to get the active frame or normal time of the animation.
-- **Easing** - Easing provides various built-in smoothing operations. Read more about [easings here](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).   
+- **Easing** - Easing provides various built-in smoothing operations. Read more about [easing here](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).   
 
-While these nodes are important, it is important to note that other nodes in the `Animation` category are also important. 
+While these nodes are important, it's important to note that other nodes in the `Animation` category are also important. 
 
-## Create a Basic Procedural Animation
+## Create a basic procedural animation
 
 <!-- <Image src={simpleGraphImg} alt="Simple graph that connects Normalized Time of Time Node to Layer's Opacity input"/> 
 
@@ -114,28 +114,28 @@ Neat, isn't it?
 
 
 1. Time Node exposes the [Normalized Time](https://pixieditor.net/docs/usage/node-graph/nodes/animation/time/), which is a value between 0 and 1.  
-Where 0 is start of the animation and 1 is the end of it. For a 2 second animation, the normalized time at 1 second will be `0.5`.
+Where 0 is start of the animation and 1 is the end of it. For a 2 second animation, the normalized time at 1 second is `0.5`.
 
 ![An opacity graph](/img/opacity-graph.png "An opacity graph")
 
-2. To connect Normalized Time to the Image's Opacity, at the beginning of the animation, the image will be transparent (`0` opacity) and fully opaque at the end (`1` opacity).
+2. To connect Normalized Time to the Image's Opacity, at the beginning of the animation, the image is transparent (`0` opacity) and fully opaque at the end (`1` opacity).
 
 
 
-## A More Complex Procedural Animation 
+## A more complex procedural animation 
 
 <!-- <Image src={sophGraphImg} alt="Simple graph that connects Normalized Time of Time Node to Layer's Opacity input"/> -->
 ![A complex procedural graph](/img/bopGraph.png "A complex procedural graph")
 
 
 
-The core concepts in the above graph are:
+The core concepts in the preceding graph are:
 
-1. Get the time of the animation (0 - 1 range).
+1. Get the time of the animation: 0 - 1 range.
 
-2. Create a smoothing effect (elastic, for this example) by plugging our time to Easing node. Read more about [easings here](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).
+2. Create a smoothing effect --- elastic, in this example --- by plugging the time to Easing node. Read more about [easing here](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).
 
-3. Create a rotation + scale effect by combining two nodes with **"Matrix Input"** and **"Matrix Output"**.  
+3. Create a "rotation + scale" effect by combining two nodes with **"Matrix Input"** and **"Matrix Output."**
 
     - Scale can be directly connected with easing, because it should go from invisible (0 scale) to full size (1 scale).
 
@@ -144,8 +144,8 @@ The core concepts in the above graph are:
 4. Plug the source image to the Scale Node. In this case, the Scale Node not only scales but also rotates because we plugged in the result of rotation to it. 
 You can combine multiple effects into one with yellow [Matrix](https://pixieditor.net/docs/usage/node-graph/property-sockets/) inputs.
 
-The effect of the above steps is an enlarged smooth animation.
+The effect of the preceding steps is an enlarged smooth animation.
 
 <!-- <video src={bopVideo} muted autoplay loop/> -->
 
-The possibilities are truly endless. Take your time, play around with nodes and have fun. That is the best way to learn.
+The possibilities are truly endless. Take your time, play around with nodes and have fun. That's the best way to learn.

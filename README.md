@@ -1,10 +1,10 @@
 # Mariam's WriteTech Accelerator Portfolio
 
-Welcome!  
+Welcome 😊
 
 This repository contains all my project work and deliverables from the **WriteTech Accelerator Program**.
 
-Over the course of the bootcamp, I completed technical writing projects across various domains — including API documentation, AI, DevOps, automation, and Web3 — using modern documentation workflows and tools.
+Over the course of the bootcamp, I completed technical writing projects across various domains, including API documentation, AI, DevOps, automation, and Web3, using modern documentation workflows and tools.
 
 ## 👩🏽‍💻 About Mariam
 
@@ -14,7 +14,7 @@ With a background in Mechanical Engineering and a deep interest in sustainabilit
 
 I aim to bridge the gap between people and complex technological concepts because I believe that docs should bring clarity not confusion.
 
-## 📁 Core Skills
+## 📁 Core skills
 
 1. [Documentation Tooling & Static Site Generators](./documentation-tooling/intro) - How-to guide for setting up a docs-as-code workflow using Docusaurus 
 2. [API Documentation & OpenAPI](./api-documentation/intro) - Improved documentation for selected endpoints from Chimoney API 
@@ -24,14 +24,14 @@ I aim to bridge the gap between people and complex technological concepts becaus
 6. [Technical Writing in Web3](./web3-documentation/intro)- One of: user guide for a Web3 tool, white paper draft, or improved API doc for a Web3 platform 
 
 
-## Contact Me
+## Contact me
 - 📞 +2348069794294   
 - 📩 mariamyusuff0000@gmail.com
 
 
-## 🔗 Additional Links
+## 🔗 Additional links
 - [GitHub](https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam)
 - [LinkedIn](https://linkedin.com/in/yusuff-mariam)
 - [Hashnode](https://mwithheart.hashnode.dev/)
 
-Thanks for checking out my work!
+Thanks for checking out my work 📝

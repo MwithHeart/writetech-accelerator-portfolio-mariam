@@ -2,7 +2,7 @@
 title: POST/invoice/generate
 ---
 
-# AI Invoice Data Generator
+# AI invoice data generator
 Generates invoice data based on clear prompts in the request body. 
 
 > **Authentication details:**   
@@ -39,7 +39,7 @@ curl -X POST https://api.example.com/invoice/generate \
 
 ## Response
 
-### Response Schema
+### Response schema
 
 | Field                 | 	Type	   	    |  Description    |
 | -------               | --------------    | --------------- |
@@ -132,7 +132,7 @@ In the JSON response below, the status is successful (Code 200) and it displays 
 
 ## Error handling
 
-Example:
+
 1. **400 Bad request** - Bad request
 ```
 {
