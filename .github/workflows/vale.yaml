@@ -24,4 +24,5 @@ jobs:
         uses: errata-ai/vale-action@v2.1.1
         with:
           # The path to the directory or file you want to lint
+          files: 'docs/'
           fail_on_error: false
