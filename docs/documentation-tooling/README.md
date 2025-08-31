@@ -24,7 +24,7 @@ This project involved auditing and restructuring documentation for PixiEditor us
 - **New**:  
 ![A screenshot of the edited "How to Create a Node Graph" page](./img/nodes-edited.png)  
 
-3. I noticed information on the [Getting started with animations](docs/documentation-tooling/getting-started) page was slightly scattered so I grouped similar information.  
+3. I noticed information on the [Getting started with animations](docs/documentation-tooling/getting-started.md) page was slightly scattered so I grouped similar information.  
 
 **Example improvement**  
 

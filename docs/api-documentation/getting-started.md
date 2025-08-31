@@ -12,7 +12,7 @@ toc_max_heading: 6
 Create an account and learn how to use the Chimoney API.
 
 ### For Businesses Integrating with the API: 
-1. Create an account **for businesses** at [dash.chimoney.io](dash.chimoney.io).
+1. Create an account **for businesses** at [dash.chimoney.io](https://dash.chimoney.io).
 2. On the collapsible menu, click the **Developers button** at the bottom.
 2. Choose **Create an app**.
 3. You get an API key once you name your app. Ensure you keep it safe.
@@ -23,7 +23,7 @@ You can also book a demo or email **support@chimoney.io** to request **"Verifica
 
 
 ### For developers testing the API 
-1. Create an account **for individuals** at the [sandbox environment](Sandbox.Chimoney.io).
+1. Create an account **for individuals** at the [sandbox environment](https://Sandbox.Chimoney.io).
 > Account is funded with $1000 of test amount
 2. Download the app.
 3. Click the Organizations tab on the dashboard.

@@ -18,11 +18,21 @@ jobs:
   Vale-Linting:
     runs-on: windows-latest
     steps:
+        # Step 1: Checkout repo
       - uses: actions/checkout@v4
 
-      - name: Run Vale
+      # Step 2: Set up Vale
+      - name: Run Vale on markdown files
         uses: errata-ai/vale-action@v2.1.1
         with:
           # The path to the directory or file you want to lint
-          files: 'docs/'
+          files: '**/*.md'
           fail_on_error: false
+
+      # Step 3: Broken Link Checker
+      - name: Check Markdown links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

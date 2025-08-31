@@ -116,7 +116,7 @@ Neat, isn't it?
 1. Time Node exposes the [Normalized Time](https://pixieditor.net/docs/usage/node-graph/nodes/animation/time/), which is a value between 0 and 1.  
 Where 0 is start of the animation and 1 is the end of it. For a 2 second animation, the normalized time at 1 second is `0.5`.
 
-![An opacity graph](/img/opacity-graph.png "An opacity graph")
+// ![An opacity graph](/img/opacity-graph.png "An opacity graph")
 
 2. To connect Normalized Time to the Image's Opacity, at the beginning of the animation, the image is transparent (`0` opacity) and fully opaque at the end (`1` opacity).
 
@@ -125,7 +125,7 @@ Where 0 is start of the animation and 1 is the end of it. For a 2 second animati
 ## A more complex procedural animation 
 
 <!-- <Image src={sophGraphImg} alt="Simple graph that connects Normalized Time of Time Node to Layer's Opacity input"/> -->
-![A complex procedural graph](/img/bopGraph.png "A complex procedural graph")
+// ![A complex procedural graph](/img/bopGraph.png "A complex procedural graph")
 
 
 

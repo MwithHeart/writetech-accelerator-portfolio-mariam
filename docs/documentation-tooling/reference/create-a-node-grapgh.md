@@ -41,7 +41,7 @@ Now that our first Node Graph is ready, it's time to add some nodes to it.
 1. <kbd>Right click</kbd> or tap <kbd>Spacebar</kbd> on the empty area. This will open a context menu with a list of available nodes. 
 2. Type the name of the node you want to add in the search bar.
 
-![The menu showing the node names](/img/ctx-menu.png "The ctx menu showing names of the nodes")  
+// ![The menu showing the node names](/img/ctx-menu.png "The ctx menu showing names of the nodes") 
 
 
 ### How to add a shadow filter node

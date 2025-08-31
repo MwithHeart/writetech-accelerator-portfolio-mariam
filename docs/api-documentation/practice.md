@@ -1,7 +1,7 @@
 👋🏽 Welcome to the dribble API, he API that allows you to manage design projects and shots, automate workflows, work seamlessly with development tools, all in a few clicks.
 
 ## Create an account
-- Setup your [Dribble account](https://dribbble.com/account/applications/new) and start building. 
+- Setup your [Dribble account] and start building. 
 
 - Check out the Terms & Guidelines to learn how the API may be used. 
 
