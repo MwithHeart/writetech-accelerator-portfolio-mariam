@@ -1,0 +1,18 @@
+name: Spectral for OpenAPI Spec
+
+on:
+  - pull_request
+
+jobs:
+  build:
+    name: Run Spectral
+    runs-on: ubuntu-latest
+    steps:
+      # Check out the repository
+      - uses: actions/checkout@v3
+
+      # Run Spectral
+      - uses: stoplightio/spectral-action@latest
+        with:
+          file_glob: 'docs/api-documentation/reference/ai-invoice.yaml'
+        
