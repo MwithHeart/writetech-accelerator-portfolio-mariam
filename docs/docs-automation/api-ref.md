@@ -9,4 +9,4 @@
 - This documentation was linted with spectral and edited. 
 - Below is the link to the edited docuemntation following spectral guidelines: 
 
-[Open API Reference](./api.html)
+[Open API Reference](/api.html) 🚀
