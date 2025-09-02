@@ -38,7 +38,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Documentation Automation',
-      items: ['docs-automation/intro', 'docs-automation/breakfast', 'docs-automation/vale-report'],
+      items: ['docs-automation/intro', 'docs-automation/sample-page', 'docs-automation/vale-report'],
     },
     {
       type: 'category',
