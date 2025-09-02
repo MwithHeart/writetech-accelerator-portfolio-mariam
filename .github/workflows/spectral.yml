@@ -1,4 +1,4 @@
-name: Spectral for OpenAPI Spec
+name: Spectral for OpenAPI Spec & Redocly
 
 on:
   - pull_request
@@ -16,3 +16,30 @@ jobs:
         with:
           file_glob: 'docs/api-documentation/reference/ai-invoice.yaml'
         
+
+  buildSSG:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Or your preferred Node.js version
+
+      - name: Install Redocly CLI
+        run: npm install -g @redocly/cli@latest
+
+      - name: Lint OpenAPI definition
+        run: redocly lint docs/api-documentation/reference/ai-invoice.yaml # Replace with your OpenAPI file name
+
+      - name: Build Redocly documentation
+        run: redocly build-docs ai-invoice.yaml -o public/index.html # Adjust output path as needed
+
+      - name: Upload built documentation (optional)
+        uses: actions/upload-artifact@v4
+        with:
+          name: redocly-docs
+          path: public/ # Or the directory where your docs are built

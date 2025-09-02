@@ -60,7 +60,7 @@ const config = {
         },    
       },
     ],
-  ],
+  ],  
 
   
   presets: [

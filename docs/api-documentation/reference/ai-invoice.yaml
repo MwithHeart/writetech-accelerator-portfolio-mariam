@@ -4,6 +4,11 @@ info:
   description: Generates invoice data based on clear prompts in the request body.
   version: 1.0.0
   
+
+servers: 
+  - url: https://ai-invoice.com
+    description: Production server
+
   
 paths: 
   /invoice/generate:
