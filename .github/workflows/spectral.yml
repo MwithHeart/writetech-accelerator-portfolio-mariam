@@ -34,10 +34,10 @@ jobs:
 
       - name: Lint OpenAPI definition
         run: redocly lint docs/docs-automation/*.yaml 
-
+            
       - name: Build Redocly documentation
-        run: redocly build-docs docs/docs-automation/*.yaml -o public/index.html
-
+        run: redocly build-docs docs/docs-automation/api-doc.yaml -o docs/docs-automation/api-reference
+           
       - name: Upload built documentation (optional)
         uses: actions/upload-artifact@v4
         with:

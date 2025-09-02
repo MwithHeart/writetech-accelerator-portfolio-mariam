@@ -38,7 +38,14 @@ const sidebars = {
     {
       type: 'category',
       label: 'Documentation Automation',
-      items: ['docs-automation/intro', 'docs-automation/sample-page', 'docs-automation/vale-report'],
+      items: ['docs-automation/intro', 'docs-automation/sample-page', 'docs-automation/report', 'docs-automation/api-ref',
+     /*   {
+        type: 'link',
+        label: 'API Reference',
+        href: 'api.html',  https://yoursite.vercel.app/docs/docs-automation/api.html, writetech-accelerator-portfolio-mariam-6dzb5qms7.vercel.app
+        */
+
+      ],
     },
     {
       type: 'category',
