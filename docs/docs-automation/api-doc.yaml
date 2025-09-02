@@ -1,0 +1,158 @@
+openapi: 3.0.0
+info: 
+  title: AI Invoice Data Generator
+  description: Generates invoice data based on clear prompts in the request body.
+  version: 1.0.0
+  
+
+servers: 
+  - url: https://ai-invoice.com
+    description: Production server
+
+  
+paths: 
+  /invoice/generate:
+    post:
+      summary: Generates an invoice based on provided instructions.
+      requestBody:
+        required: true
+        content: 
+          application/json:
+            schema: 
+              type: object
+              required:
+                - instruction
+              properties:
+                instruction: 
+                  type: string
+                  example: Create an invoice from Jane Doe to Chimoney Incorporated for Web Dev Service which I provided for 4 months at $5/month and for Project Management cost of $100 with tax rate of 5%.
+            
+      responses: 
+        '200': 
+          description: Success
+          content: 
+            application/json: 
+              schema:
+                type: object
+                properties:
+                  status: 
+                    type: string
+                    example: Successful invoice generation
+                  data:
+                    type: object
+                    properties: 
+                      invoiceNumber:
+                        type: string
+                        example: invoice_2025_123_web_project
+                      invoiceDate: 
+                        type: string
+                        format: date
+                        example: 2025-08-24
+                      sender: 
+                         type: object
+                         properties: 
+                          firstName: 
+                            type: string
+                            example: John
+                          lastName: 
+                            type: string
+                            example: Doe
+                      recipient:
+                         type: object
+                         properties: 
+                          companyName:
+                            type: string
+                            example: Chimoney Incorporated
+                          addressLine1: 
+                            type: string
+                            example: Web Dev Service
+                          email:
+                            type: string
+                            example: chimoneyapi@gmail.com
+                              
+        '400':
+          description: Bad request - Error in the request
+          content: 
+            application/json: 
+              schema: 
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  type:
+                    type: string
+                    example: Validation Error
+                  code:
+                    type: string
+                    example: INVALID_REQUEST
+                  message:
+                    type: string
+                    example: '"instruction" is required'
+        '401':
+          description: Unauthorized - Invalid API key 
+          content: 
+            application/json: 
+              schema: 
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: unauthorized access
+                  error:
+                    type: string
+                    example: Oops! You need to a valid Chimoney User ID to do that.
+        '403': 
+          description: Forbidden - Access to this request is forbidden.
+          content: 
+            application/json: 
+              schema: 
+                type: object
+                properties:
+                  status:
+                    type: string
+                  error:
+                    type: string
+                    example: Access to this resource is forbidden. 
+        '500':
+          description: Internal Server Error
+          content: 
+            application/json: 
+              schema: 
+                type: object
+                properties:
+                  status:
+                    type: string
+                  type:
+                    type: string
+                  code:
+                    type: string
+                  message:
+                    type: string
+                    example: Oops! An internal error has occured. Give us a few minutes to set things right.
+                    
+                    
+components: 
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+security:
+   - ApiKeyAuth: []                  
+                  
+                  
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

@@ -1,7 +1,7 @@
 // @ts-check
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-const openApiSidebar = require("./docs/api-documentation/reference/ai-invoice/sidebars-openapi.js");
+// const openApiSidebar = require("./docs/api-documentation/reference/ai-invoice/sidebars-openapi.js");
  /**
   * Creating a sidebar enables you to:
   - create an ordered group of docs
@@ -38,7 +38,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Documentation Automation',
-      items: ['docs-automation/intro'],
+      items: ['docs-automation/intro', 'docs-automation/breakfast', 'docs-automation/vale-report'],
     },
     {
       type: 'category',

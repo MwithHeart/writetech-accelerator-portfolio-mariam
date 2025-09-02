@@ -43,25 +43,7 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-    "docusaurus-plugin-openapi-docs",
-    {
-      id: "api", // any ID you like
-      docsPluginId: "classic", // since you’re using the classic preset
-      config: {
-        aiInvoice: {
-          specPath: "docs/api-documentation/reference/ai-invoice.yaml", // 👈 where your YAML lives
-          outputDir: "docs/api-documentation/reference/ai-invoice",             // 👈 generated MDX files
-          sidebarOptions: {
-            groupPathsBy: "tag", // group endpoints by tag
-            },
-          },
-        },    
-      },
-    ],
-  ],  
-
+  plugins: [],
   
   presets: [
     [
@@ -73,8 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam/',
-          docItemComponent: "@theme/ApiItem", // 👈 ADD THIS
+            'https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam/'
         },
         blog: {
           showReadingTime: true,

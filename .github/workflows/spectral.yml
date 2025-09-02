@@ -14,7 +14,7 @@ jobs:
       # Run Spectral
       - uses: stoplightio/spectral-action@latest
         with:
-          file_glob: 'docs/api-documentation/reference/ai-invoice.yaml'
+          file_glob: '**/*.yaml'
         
 
   buildSSG:
@@ -33,10 +33,10 @@ jobs:
         run: npm install -g @redocly/cli@latest
 
       - name: Lint OpenAPI definition
-        run: redocly lint docs/api-documentation/reference/ai-invoice.yaml # Replace with your OpenAPI file name
+        run: redocly lint docs/docs-automation/*.yaml 
 
       - name: Build Redocly documentation
-        run: redocly build-docs ai-invoice.yaml -o public/index.html # Adjust output path as needed
+        run: redocly build-docs docs/docs-automation/*.yaml -o public/index.html
 
       - name: Upload built documentation (optional)
         uses: actions/upload-artifact@v4
