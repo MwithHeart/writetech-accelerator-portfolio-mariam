@@ -5,8 +5,12 @@ title: API Linting
 ---
 
 # API specification linting 
-- Documented an API endpoint from the Chimoney app using Swaggereditor.
-- Linted the documentation with spectral and edited using spectral guidelines.
+- Documented an API endpoint from the Chimoney app using Swagger editor.
+- Linted the documentation with spectral and edited using spectral guidelines, correcting parts such as:
+    - Adding **message** to the error codes
+    - Adding the schema for the response body for easy skimming
+    - Including the authorization method
+    - Adding a server to the specification 
 - Below is the edited API documentation 
 
 <iframe 
