@@ -1,12 +1,17 @@
 ---
 # id: api-reference
-# title: API Linting
+title: API Linting
 # sidebar_position: 2
 ---
 
 # API specification linting 
-- An API endpoint from the Chimoney app was documented in line with OpenAPI specification. 
-- This documentation was linted with spectral and edited following spectral guidelines.
-- Below is the link to the edited documentation following spectral guidelines: 
+- Documented an API endpoint from the Chimoney app using Swaggereditor.
+- Linted the documentation with spectral and edited using spectral guidelines.
+- Below is the edited API documentation 
 
-[Open API Reference](/api.html) 🚀
+<iframe 
+  src="/api.html" 
+  width="137%" 
+  height="950" 
+  style={{ border: '1px solid #ddd', borderRadius: '8px' }}
+/>
