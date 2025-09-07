@@ -44,7 +44,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'AI for Documentation',
-      items: ['ai-documentation/intro'],
+      items: ['ai-documentation/intro', 'ai-documentation/model-card', 'ai-documentation/prompt-used', 'ai-documentation/ai-output', 'ai-documentation/final-doc'],
     },
     {
       type: 'category',

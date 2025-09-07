@@ -1,11 +1,8 @@
----
-title: Project Overview
----
-
 # AI for Documentation – Sentiment Analysis Model
 
-## Overview
+## Project Overview
 This project explores how AI tools can support documentation by generating drafts, extracting key insights, and supplementing existing materials.
+
 
 ## 🔍 Model chosen
 [Name and link to the AI model used]

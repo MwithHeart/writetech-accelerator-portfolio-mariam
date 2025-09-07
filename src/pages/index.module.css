@@ -4,20 +4,285 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #b41313 100%);
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+  animation: backgroundShift 20s ease-in-out infinite;
+}
+
+@keyframes backgroundShift {
+  0%, 100% { transform: translateX(0) translateY(0); }
+  25% { transform: translateX(-10px) translateY(-5px); }
+  50% { transform: translateX(10px) translateY(10px); }
+  75% { transform: translateX(-5px) translateY(5px); }
+}
+
+.heroContainer {
+  max-width: 1200px;
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.aiAvatar {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.avatarGlow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.7; }
+  50% { transform: scale(1.1); opacity: 1; }
+}
+
+.avatarIcon {
+  font-size: 4rem;
+  z-index: 1;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.chatInterface {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 800px;
+  width: 100%;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.userMessage {
+  align-self: flex-end;
+  background: #007acc;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 20px 20px 5px 20px;
+  max-width: 70%;
+  box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
+}
+
+.aiMessage {
+  align-self: flex-start;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  padding: 1.5rem;
+  border-radius: 20px 20px 20px 5px;
+  max-width: 85%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.aiMessageHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.aiName {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #2d3748;
+}
+
+.aiRole {
+  font-size: 0.9rem;
+  color: #718096;
+  font-style: italic;
+}
+
+.messageText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: inherit;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #007acc;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.actionButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, #667eea 0%, #b41313 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.primaryButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(102, 126, 234, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.secondaryButton {
+  background: rgba(255, 255, 255, 0.9);
+  color: #4a5568;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.secondaryButton:hover {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 0.4);
+  transform: translateY(-1px);
+  color: #4a5568;
+  text-decoration: none;
+}
+
+.buttonIcon {
+  font-size: 1.2rem;
+}
+
+.backgroundElements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.floatingElement {
+  position: absolute;
+  font-size: 2rem;
+  opacity: 0.1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.floatingElement:nth-child(1) { animation-delay: 0s; }
+.floatingElement:nth-child(2) { animation-delay: 1.5s; }
+.floatingElement:nth-child(3) { animation-delay: 3s; }
+.floatingElement:nth-child(4) { animation-delay: 4.5s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-10px) rotate(5deg); }
+  50% { transform: translateY(-20px) rotate(0deg); }
+  75% { transform: translateY(-10px) rotate(-5deg); }
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    min-height: 90vh;
+  }
+  
+  .heroContainer {
+    padding: 1rem;
+  }
+  
+  .chatInterface {
+    padding: 1.5rem;
+  }
+  
+  .actionButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+  
+  .aiAvatar {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .avatarIcon {
+    font-size: 3rem;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 600px) {
+  .userMessage,
+  .aiMessage {
+    max-width: 95%;
+  }
+  
+  .messageText {
+    font-size: 1rem;
+  }
+  
+  .floatingElement {
+    display: none;
+  }
 }
