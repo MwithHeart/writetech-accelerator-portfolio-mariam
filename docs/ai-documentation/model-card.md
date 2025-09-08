@@ -1,33 +1,43 @@
-# Qwen3 Model Card
+# Qwen3 model card
 
-## Model Details
-
-### Model Description
-Qwen3 is the latest addition to the Qwen family of large language models developed by Alibaba Group. It's a state-of-the-art language model that excels in natural language understanding, text generation, and multi-turn conversations. The model comes in various sizes, including both dense and Mixture of Experts (MoE) variants.
+## Model description
+Qwen3, also known as Qwen3-2504, is the latest addition to the Qwen family of large language models developed by Alibaba Group. It is capable of natural language understanding, text generation, vision understanding, and much more. The model Support of 100+ languages and dialects and includes dense and Mixture of Experts (MoE) model types.
 
 - **Developed by:** Qwen Team, Alibaba Group
 - **Model type:** Transformer-based language model
 - **License:** Apache 2.0
-- **Release Date:** [Insert release date]
+- **Release Date:** April 29, 2025
 
-### Model Variants
-Qwen3 is available in multiple sizes and configurations:
+## Model variants
+Qwen-3 has two different types of variants:  
 
-#### Dense Models
-- Qwen3-32B (32 billion parameters)
+- Architecture variants → Dense vs. Mixture-of-Experts (MoE).  
+- Response style variants → Instruct vs. Thinking. 
+
+### Model variants: dense and Mixture-of-Experts (MoE) models
+Qwen-3 is available in both Dense and Mixture-of-Experts (MoE) architectures.
+
+#### Dense models
+- Qwen3-32B 32 billion parameters)
 - Qwen3-14B (14 billion parameters)
 - Qwen3-8B (8 billion parameters)
 - Qwen3-4B (4 billion parameters)
 - Qwen3-1.7B (1.7 billion parameters)
-- Qwen3-0.6B (0.6 billion parameters)
+- Qwen3-0.6B (600 million parameters)
 
-#### Mixture of Experts (MoE) Models
-- Qwen3-235B-A22B (235B total parameters, 22B activated)
-- Qwen3-30B-A3B (30B total parameters, 3B activated)
+#### Mixture-of-Experts (MoE) models
+- **Qwen3-235B-A22B:** 235B total parameters, 22B activated. This means the model has 235 billion total parameters, but only about 22 billion are active when processing any given input
+- **Qwen3-30B-A3B:** 30B total parameters, 3B activated. This has 30 billion total parameters, but only about 3 billion are active when processing any given input
+
+
+### Model variants: Qwen3-Instruct-2507 and Qwen3-Thinking-2507
+- **Qwen3-Instruct-2507:** Demonstrates significant improvements in instruction following, logical reasoning, text comprehension, mathematics, science, coding, and tool usage. Produces more helpful and contextually aligned responses for subjective and open-ended tasks.
+- **Qwen3-Thinking-2507:** Demonstrates improved performance on reasoning-intensive tasks such as logical reasoning, mathematics, science, coding, and academic benchmarks.
+
 
 ## Intended Use
 
-### Primary Use Cases
+### Primary use cases
 - Natural language understanding and generation
 - Code generation and understanding
 - Multilingual applications (supports 119 languages and dialects)
@@ -35,13 +45,13 @@ Qwen3 is available in multiple sizes and configurations:
 - Content generation and summarization
 - Question answering systems
 
-### Out-of-Scope Use
+### Out-of-scope use
 - Any application that violates ethical AI principles
 - Generating harmful, biased, or misleading content
 - Applications that require human-level understanding or consciousness
 - Critical decision-making without human oversight
 
-## Training Data
+## Training data
 
 Qwen3 was trained on a diverse dataset including:
 - Web pages and documents
@@ -51,7 +61,7 @@ Qwen3 was trained on a diverse dataset including:
 
 **Training Data Size:** [Exact token count not specified in available documentation]
 
-## Evaluation Results
+## Evaluation results
 
 ### Benchmarks
 Qwen3 models achieve competitive results in various benchmarks, including:
@@ -65,9 +75,9 @@ Qwen3 models achieve competitive results in various benchmarks, including:
 - **Qwen3-30B-A3B** outperforms QwQ-32B with 10x fewer activated parameters
 - **Qwen3-4B** rivals the performance of Qwen2.5-72B-Instruct
 
-## Technical Specifications
+## Technical specifications
 
-### Model Architecture
+### Model architecture
 - **Architecture:** Transformer-based
 - **Context Length:** [Insert context length]
 - **Vocabulary Size:** [Insert vocabulary size]
@@ -75,7 +85,7 @@ Qwen3 models achieve competitive results in various benchmarks, including:
   - Thinking Mode: For complex problems requiring step-by-step reasoning
   - Non-Thinking Mode: For quick, direct responses
 
-### Compute Infrastructure
+### Compute infrastructure
 - **Hardware:** [Specify if known]
 - **Training Time:** [Specify if known]
 - **Training Infrastructure:** [Specify if known]
@@ -92,7 +102,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 ```
 
-### Example Usage
+### Example usage
 ```python
 def generate_response(prompt, model, tokenizer, max_length=100):
     inputs = tokenizer(prompt, return_tensors="pt")
@@ -111,7 +121,7 @@ response = generate_response(prompt, model, tokenizer)
 print(response)
 ```
 
-## Ethical Considerations
+## Ethical considerations
 
 ### Limitations
 - May generate incorrect or biased information
