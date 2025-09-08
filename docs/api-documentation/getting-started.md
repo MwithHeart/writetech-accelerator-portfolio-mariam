@@ -35,7 +35,7 @@ Account is funded with $1000 of test amount
 
 - You can watch [this video](https://www.loom.com/share/436303eb69c44f0d9757ea0c655bed89?sid=b6a0f661-721c-4731-9873-ae6f2d25780) on how to get started with the Chimoney Sandbox.
 
-## The base URL
+## The base URLs
 1. If testing in production then use the first URL: ```https://api.chimoney.io```
 
 2. Otherwise, switch to the sandbox version: ```https://api-v2-sandbox.chimoney.io```

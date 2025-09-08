@@ -43,7 +43,7 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [],
+  
   
   presets: [
     [
@@ -52,6 +52,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          // use ApiItem to get the OpenAPI UI components
+          docItemComponent: '@theme/ApiItem',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -79,8 +81,27 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: 'api',                 // unique id for this plugin instance
+        docsPluginId: 'classic',   // use the preset classic docs instance
+        config: {
+          aiInvoice: {
+            specPath: 'docs/api-documentation/reference/ai-invoice.yaml',
+            outputDir: 'docs/api-reference',   // <- IMPORTANT: subfolder under docs/
+            sidebarOptions: {
+              groupPathsBy: 'tag',            // optional: group endpoints by tag
+              exclude: ['**/*.info.mdx'],   // 🚀 exclude info pages
+            },
+          },
+        },
+      },
+    ],
+  ],
+  themes: ['docusaurus-theme-openapi-docs'],
 
-  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
