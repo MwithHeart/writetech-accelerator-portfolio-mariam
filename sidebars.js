@@ -34,6 +34,7 @@ const sidebars = {
         'api-documentation/reference/generate-invoice',
         'api-documentation/reference/verify'
       ],
+      
     },
     {
       type: 'category',

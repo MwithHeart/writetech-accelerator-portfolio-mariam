@@ -2,8 +2,10 @@
 
 # My portfolio
 
-> [!NOTE]  
-> This project is still a work in progress so you may find broken links and blank pages. These pages will be updated as I progress in the WriteTech Accelerator Program.   
+:::note
+This project is still a work in progress so you may find broken links and blank pages. The pages will be updated as I progress in the WriteTech Accelerator Program.   
+
+::: 
 
 Welcome 😊
 

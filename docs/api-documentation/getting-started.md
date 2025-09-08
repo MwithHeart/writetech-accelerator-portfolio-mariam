@@ -24,7 +24,10 @@ You can also book a demo or email **support@chimoney.io** to request **"Verifica
 
 ### For developers testing the API 
 1. Create an account **for individuals** at the [sandbox environment](https://Sandbox.Chimoney.io).
-> Account is funded with $1000 of test amount
+:::note
+Account is funded with $1000 of test amount
+:::
+
 2. Download the app.
 3. Click the Organizations tab on the dashboard.
 4. Create an Organization/Team

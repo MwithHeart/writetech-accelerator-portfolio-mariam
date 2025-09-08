@@ -1,0 +1,71 @@
+---
+id: generates-an-invoice-based-on-provided-instructions
+title: "Generates an invoice based on provided instructions."
+description: "Generates an invoice based on provided instructions."
+sidebar_label: "Generates an invoice based on provided instructions."
+hide_title: true
+hide_table_of_contents: true
+api: eJzVV9tu20YQ/ZXpIH2jLnZsIOBTFcsNlKaJG9spCkcwRuRI3JTcZXaXklVB/17MkrpYlmWjRQ1UL7Z253r2zEULtPy9YuffmnSO8SJ8VZZTjL2tOMLEaM/ayxWVZa4S8srozjdntJy5JOOC5D8/LxljNKNvnHiMtgzdoNLO2yoRTRxGWFpTsvWKnShuX27sOG+VnmCEfEdFmcvRmWXyDKRB6alRCcPYmgLek2boGwZv4CxThdE8h4FOjC2NJc8pjI2F33kEfZ7CJdupqM4ylWQwgNKaqUoboRMojPaZA/Lw6rQTvgDp+vLCGkkNfiVNEy5Ye0iM82DG8Oqo24WZ8hl4ugNxKqenP7ZxGT6ChiuNdnXGx92u/EnZJVaVdeJ4WSUJO4f/AvL7uDpPvnKHIW2cjqt8jemENdvgEZcRpuSf4arR/VgVI7aHPTait8fd49Pbo+PXtzMe3ZY1tOKwue+T532GxsYW5DGWwPieYTHY6r5pHZ+IGcc6vRfKI5GPlXX+IxV7nW2MvzdZgCOn50j3DWPz6okqVfOWhwNJTFGSnj9tfC/FJTZKU8vOfVCajw6b2KkFUeaCVH5YK2kcU6l+moh4OzFFQ/Ca5Cf7eP2WUmh6DLTg3FpjQWnwGa+OX5byLBFIyrXIIdEvlKs0RFLHLVqJSZ/QGnz80vsw6N9+Pv/t+vzySpQKdo4mT+h93e6EXxGUg3UP3SB89BDha02Vz4xVf3EKLRjoqcQNvYsB/Mnzl0W32o6F6o4m9ArwHdT8ZEr3A/xhKtDMqTRzgjqRNeOvHVsY9OUuNeAz8u0tZF4/ROZnY0cqTVlDC3ohGNH1WQOtUFI5ae61VPu/x+p5WDyI1ZnKJrwT7Cr1031lN9CeraY8FDnbhsAvkd/+unq0dJ5bHjU/ejL8m8wCkJCRA5MkleW0De/UlKFyQDDmGRRKV54Djo69YKknDqyaZGviyIi7h9u7evyx294zRuQ4BaM328JWqTqhTcE+MynGWJrQ0EryGcbYaSx0mqkqI8uFB3EY3yywsjnGmHlfurjTIdVq5ENr3Q3twpq0dgm1DVwOxVxSWeXnwV6vVL/wvFeJ85vh9vWlPGz9dttCa8QpHKIMYImIScZnhDrMI+w1Rd3sBcsIhTCfN6vj+eqddva5/+fSJiiMTUBH+boiB9JXQ/x98gQNTUJJPUagVcKyQ20olORMVjIoSu92JiGMTDoXOglBanNH7W67KxEJsQoKRdo8yj+k6r1w1+/v+c53ypxU2HMCLxcNi29WSxlGuObxMMJMqB7f4GIhTq9tvlzK8feKrbBxGOGUrKKRAHgzXEYrVglRZTDFeFY3o9aVxCDieVVzcacxLaOVhnTG0h+UHW5V48WnyyuMcNT8uClCB0JLM/mBQjOMESM0AYtQGuFsgTnpSRU6EtY25fM3S0eQsA==
+sidebar_class_name: "post api-method"
+info_path: docs/api-documentation/reference/ai-invoice-data-generator
+custom_edit_url: null
+---
+
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import ParamsDetails from "@theme/ParamsDetails";
+import RequestSchema from "@theme/RequestSchema";
+import StatusCodes from "@theme/StatusCodes";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+import Heading from "@theme/Heading";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Generates an invoice based on provided instructions."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/invoice/generate"}
+  context={"endpoint"}
+>
+  
+</MethodEndpoint>
+
+
+
+Generates an invoice based on provided instructions.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<ParamsDetails
+  parameters={undefined}
+>
+  
+</ParamsDetails>
+
+<RequestSchema
+  title={"Body"}
+  body={{"required":true,"content":{"application/json":{"schema":{"type":"object","required":["instruction"],"properties":{"instruction":{"type":"string","example":"Create an invoice from Jane Doe to Chimoney Incorporated for Web Dev Service which I provided for 4 months at $5/month and for Project Management cost of $100 with tax rate of 5%."}}}}}}}
+>
+  
+</RequestSchema>
+
+<StatusCodes
+  id={undefined}
+  label={undefined}
+  responses={{"200":{"description":"Success","content":{"application/json":{"schema":{"type":"object","properties":{"status":{"type":"string","example":"Successful invoice generation"},"data":{"type":"object","properties":{"invoiceNumber":{"type":"string","example":"invoice_2025_123_web_project"},"invoiceDate":{"type":"string","format":"date","example":"2025-08-24"},"sender":{"type":"object","properties":{"firstName":{"type":"string","example":"John"},"lastName":{"type":"string","example":"Doe"}}},"recipient":{"type":"object","properties":{"companyName":{"type":"string","example":"Chimoney Incorporated"},"addressLine1":{"type":"string","example":"Web Dev Service"},"email":{"type":"string","example":"chimoneyapi@gmail.com"}}}}}}}}}},"400":{"description":"Bad request - Error in the request","content":{"application/json":{"schema":{"type":"object","properties":{"status":{"type":"string","example":"error"},"type":{"type":"string","example":"Validation Error"},"code":{"type":"string","example":"INVALID_REQUEST"},"message":{"type":"string","example":"\"instruction\" is required"}}}}}},"401":{"description":"Unauthorized - Invalid API key","content":{"application/json":{"schema":{"type":"object","properties":{"status":{"type":"string","example":"unauthorized access"},"error":{"type":"string","example":"Oops! You need to a valid Chimoney User ID to do that."}}}}}},"403":{"description":"Forbidden - Access to this request is forbidden.","content":{"application/json":{"schema":{"type":"object","properties":{"status":{"type":"string"},"error":{"type":"string","example":"Access to this resource is forbidden."}}}}}},"500":{"description":"Internal Server Error","content":{"application/json":{"schema":{"type":"object","properties":{"status":{"type":"string"},"type":{"type":"string"},"code":{"type":"string"},"message":{"type":"string","example":"Oops! An internal error has occured. Give us a few minutes to set things right."}}}}}}}}
+>
+  
+</StatusCodes>
+
+
+      
