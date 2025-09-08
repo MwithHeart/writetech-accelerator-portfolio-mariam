@@ -15,8 +15,8 @@ title: API Linting
 
 <iframe 
   src="/api.html" 
-  width="135%" 
-  height="950" 
+  width="137%" 
+  height="955" 
   style={{ border: '1px solid #ddd', borderRadius: '8px' }}
 />
 
