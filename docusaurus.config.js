@@ -93,7 +93,7 @@ const config = {
             outputDir: 'docs/api-documentation/api-reference',   // <- IMPORTANT: subfolder under docs/
             sidebarOptions: {
               groupPathsBy: 'tag',            // optional: group endpoints by tag
-              exclude: ['**/*.info.mdx'],   // 🚀 exclude info pages
+           //   exclude: ['**/*.info.mdx'],   // 🚀 exclude info pages
             },
           },
         },
