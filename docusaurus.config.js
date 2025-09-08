@@ -90,10 +90,10 @@ const config = {
         config: {
           aiInvoice: {
             specPath: 'docs/api-documentation/reference/ai-invoice.yaml',
-            outputDir: 'docs/api-reference',   // <- IMPORTANT: subfolder under docs/
+            outputDir: 'docs/api-documentation/api-reference',   // <- IMPORTANT: subfolder under docs/
             sidebarOptions: {
               groupPathsBy: 'tag',            // optional: group endpoints by tag
-            //  exclude: ['**/*.info.mdx'],   // 🚀 exclude info pages
+              exclude: ['**/*.info.mdx'],   // 🚀 exclude info pages
             },
           },
         },
