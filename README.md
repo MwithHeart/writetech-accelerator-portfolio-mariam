@@ -1,5 +1,10 @@
 # Mariam's WriteTech Accelerator Portfolio
 
+# My portfolio
+
+> [!NOTE]  
+> This project is still a work in progress so you may find broken links and blank pages. These pages will be updated as I progress in the WriteTech Accelerator Program.   
+
 Welcome 😊
 
 This repository contains all my project work and deliverables from the **WriteTech Accelerator Program**.
@@ -8,11 +13,9 @@ Over the course of the bootcamp, I completed technical writing projects across v
 
 ## 👩🏽‍💻 About Mariam
 
-I am Mariam Yusuff, a technical writer passionate about simplifying ideas, telling meaningful stories, and creating impact through words. I write with empathy and clarity.
+I am Mariam Yusuff, a technical writer passionate about simplifying ideas, telling meaningful stories, and creating impact through words. I write with empathy and clarity.   
 
-With a background in Mechanical Engineering and a deep interest in sustainability and technology, I’ve carved a space for myself at the intersection of technical clarity and creative expression.
-
-I aim to bridge the gap between people and complex technological concepts because I believe that docs should bring clarity not confusion.
+I aim to bridge the gap between people and complex technological concepts because I believe that docs should bring **clarity** not **confusion**.
 
 ## 📁 Core skills
 

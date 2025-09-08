@@ -5,7 +5,18 @@ title: Welcome
 ---
 
 # My portfolio
-## 👩🏽‍💻 Who am I?
+
+> [!NOTE]  
+> This project is still a work in progress so you may find broken links and blank pages. These pages will be updated as I progress in the WriteTech Accelerator Program.   
+
+Welcome 😊
+
+This repository contains all my project work and deliverables from the **WriteTech Accelerator Program**.
+
+Over the course of the bootcamp, I completed technical writing projects across various domains, including API documentation, AI, DevOps, automation, and Web3, using modern documentation workflows and tools.
+
+
+## 👩🏽‍💻 About Mariam
 
 I am Mariam Yusuff, a technical writer passionate about simplifying ideas, telling meaningful stories, and creating impact through words. I write with empathy and clarity.   
 
@@ -32,4 +43,4 @@ I aim to bridge the gap between people and complex technological concepts becaus
 - [LinkedIn](https://linkedin.com/in/yusuff-mariam)
 - [Hashnode](https://mwithheart.hashnode.dev/)
 
-Thanks for checking out my work
+Thanks for checking out my work ✨
