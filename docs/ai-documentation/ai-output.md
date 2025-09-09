@@ -2,9 +2,10 @@
 title: Qwen3 FAQ (AI)
 ---
 
-# Qwen3 Frequently Asked Questions (FAQ)
+# Qwen3 Frequently Asked Questions (FAQs)
+This page contains the AI-generated FAQs for Qwen3.
 
-## General Questions
+## General questions
 
 ### What is Qwen3?
 Qwen3 is the latest generation of large language models developed by Alibaba Group's Qwen Team. It's a transformer-based language model that excels in natural language understanding, text generation, coding, and multilingual applications, supporting 119 languages and dialects.
@@ -17,7 +18,7 @@ Qwen3 is the latest generation of large language models developed by Alibaba Gro
 - **Model Context Protocol (MCP)**: Enhanced agentic capabilities
 
 ### What model sizes are available?
-**Dense Models:**
+**Dense models:**
 - Qwen3-32B (32 billion parameters)
 - Qwen3-14B (14 billion parameters)
 - Qwen3-8B (8 billion parameters)
@@ -25,11 +26,11 @@ Qwen3 is the latest generation of large language models developed by Alibaba Gro
 - Qwen3-1.7B (1.7 billion parameters)
 - Qwen3-0.6B (0.6 billion parameters)
 
-**MoE Models:**
+**MoE models:**
 - Qwen3-235B-A22B (235B total, 22B active parameters)
 - Qwen3-30B-A3B (30B total, 3B active parameters)
 
-## Installation and Setup
+## Installation and setup
 
 ### What are the system requirements?
 - **Python**: 3.10 or higher
@@ -56,7 +57,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 ```
 
-## Usage Questions
+## Usage questions
 
 ### What's the difference between thinking and non-thinking modes?
 - **Thinking Mode**: The model reasons step-by-step before providing an answer, ideal for complex problems
@@ -100,7 +101,7 @@ generated_ids = model.generate(
 # Check if thinking is complete and continue if needed
 ```
 
-## Technical Questions
+## Technical questions
 
 ### What is the context length for Qwen3 models?
 The context length varies by model size and is optimized for each variant. Check the specific model documentation for exact values.
@@ -144,7 +145,7 @@ Adjust the `presence_penalty` parameter between 0 and 2. Higher values reduce re
 - Set `enable_thinking=True` in the chat template
 - Use appropriate generation parameters for thinking models
 
-## Performance and Optimization
+## Performance and optimization
 
 ### How can I improve inference speed?
 - Use MoE models for better parameter efficiency
@@ -161,7 +162,7 @@ MoE (Mixture of Experts) models have more total parameters but only activate a s
 - **14B-32B**: Research, complex reasoning, enterprise use
 - **MoE models**: Large-scale applications requiring efficiency
 
-## Licensing and Commercial Use
+## Licensing and commercial use
 
 ### What license does Qwen3 use?
 Qwen3 is released under the Apache 2.0 license, allowing for both research and commercial use.
@@ -172,7 +173,7 @@ Yes, the Apache 2.0 license permits commercial use, modification, and distributi
 ### Are there any usage restrictions?
 Follow standard ethical AI guidelines and avoid generating harmful, biased, or misleading content.
 
-## Support and Resources
+## Support and resources
 
 ### Where can I find more documentation?
 - Official Documentation: https://qwen.readthedocs.io/

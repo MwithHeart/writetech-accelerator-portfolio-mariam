@@ -1,5 +1,5 @@
 ---
-title: Procedural Animations
+title: Procedural animations
 ---
 
 <!-- import Node from '../../../../components/Node.astro'; 
@@ -13,6 +13,7 @@ If you're here, it means you want to make some cool animations and that's nice. 
 
 
 ::: tip  
+
 We recommend checking out [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first, to make it easier to understand this guide. With that, it's time to dive in.   
 :::
 

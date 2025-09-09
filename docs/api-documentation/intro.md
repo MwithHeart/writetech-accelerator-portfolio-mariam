@@ -15,10 +15,10 @@ You can check the website site [here](https://chimoney.io).
 
 ## Improvements 
 1. **Improved Onboarding:** The actual ```getting started``` page seems like a simple guide that talks about products that can be built with the API. I restructured it into something more hands-on, including:
-- How to create an account
-- Authentication
-- The base URL
-- A sample Postman request
+    - How to create an account
+    - Authentication
+    - The base URL
+    - A sample Postman request
 
 2. **Structured Endpoint Pages** Created pages for two endpoints implementing proper structure and codeblocks for displaying responses. 
 
