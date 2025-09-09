@@ -5,7 +5,8 @@ This project explores how AI tools can support documentation by generating draft
 
 
 ## 🔍 Model chosen
-Qwen3 AI model. This project involves creating a model card for Qwen3, Alibaba Group's latest large language model. The goal was to develop clear, user-friendly documentation that explains the model's features, setup, usage and other crucial information. For more information on Qwen3, see the official [Qwen3](https://qwen.readthedocs.io/en/latest/) docuemntation.
+Qwen3 AI model.   
+This project involves creating a model card for Qwen3, Alibaba Group's latest large language model. The goal was to develop clear, user-friendly documentation that explains the model's features, setup, usage and other crucial information. For more information on Qwen3, see the official [Qwen3](https://qwen.readthedocs.io/en/latest/) documentation.
 
 
 ## 📄 Project files

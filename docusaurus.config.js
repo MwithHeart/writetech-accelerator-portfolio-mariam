@@ -13,7 +13,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mariam Yusuff',
-  tagline: 'Docs should spark ‘aha’ 💡 moments , not ‘ugh’ 😩 headaches. So let me write that docs for you ',
+  tagline: 'Docs shouldn’t feel like a puzzle with missing pieces.' +
+            ' I turn complexity into clarity, so your users leave with ‘aha!’ 💡 moments, not ‘ugh’ 😩 headaches.',
   favicon: 'favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -43,7 +44,10 @@ const config = {
     locales: ['en'],
   },
 
-  
+  stylesheets: [
+    "https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+  ],
+
   
   presets: [
     [
@@ -61,6 +65,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+           blogSidebarTitle: 'All Posts',     // 👈 add this
+           blogSidebarCount: 'ALL',   
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -75,7 +81,7 @@ const config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
@@ -100,7 +106,10 @@ const config = {
       },
     ],
   ],
-  themes: ['docusaurus-theme-openapi-docs'],
+  themes: [
+    'docusaurus-theme-openapi-docs',
+  ],
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */

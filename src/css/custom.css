@@ -24,7 +24,7 @@
   --ifm-color-primary-light: #981010;
   --ifm-color-primary-lighter: #9f1111;
   --ifm-color-primary-lightest: #b41313;
-  --ifm-background-color: #f8f8f8;
+  --ifm-background-color: #ffffff;
   --ifm-code-font-size: 90%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -40,4 +40,11 @@
   --ifm-color-primary-lightest: #f9d6b7;
   --ifm-background-color: #232429;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  color: #242424;
 }

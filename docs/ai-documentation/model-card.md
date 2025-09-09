@@ -204,7 +204,7 @@ Cite through the Qwen3 Technical Report published on arXiv:
 
   ```
 
-:::Note  
+:::note  
 An official citation format is not available in the project documentation; this is based on the arXiv technical report.  
 :::
 

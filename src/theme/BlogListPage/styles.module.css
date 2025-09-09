@@ -1,0 +1,40 @@
+.blogContainer {
+  max-width: 720px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.blogCard {
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.blogCard:hover {
+  transform: translateY(-2px);
+}
+
+.blogCard h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #242424;
+}
+
+.excerpt {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.meta {
+  font-size: 0.875rem;
+  color: #888;
+}
+
+.blogImage {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
