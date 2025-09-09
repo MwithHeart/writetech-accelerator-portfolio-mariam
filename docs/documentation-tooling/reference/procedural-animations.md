@@ -14,7 +14,7 @@ If you're here, it means you want to make some cool animations and that's nice. 
 
 ::: tip  
 
-We recommend checking out [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first, to make it easier to understand this guide. With that, it's time to dive in.   
+You should check [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first, to make it easier to understand this guide. With that, it's time to dive in.   
 :::
 
 ## Introduction to procedural animations
@@ -22,7 +22,7 @@ We recommend checking out [basics of animations](https://pixieditor.net/docs/usa
 A Procedural Animation is an animation that's generated based on logic and input parameters. It's important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead. 
 
 
-## Some important animation nodes 
+## Important animation nodes 
 
 Here are some important animation nodes which make animating easier:
 
@@ -115,9 +115,9 @@ Neat, isn't it?
 
 
 1. Time Node exposes the [Normalized Time](https://pixieditor.net/docs/usage/node-graph/nodes/animation/time/), which is a value between 0 and 1.  
-Where 0 is start of the animation and 1 is the end of it. For a 2 second animation, the normalized time at 1 second is `0.5`.
+Where 0 is start of the animation and 1 is the end of it. For a 2 second animation, the normalized time at 1 second is **0.5**.
 
-// ![An opacity graph](/img/opacity-graph.png "An opacity graph")
+      ![An opacity graph](/img/opacity-graph.png "An opacity graph")
 
 2. To connect Normalized Time to the Image's Opacity, at the beginning of the animation, the image is transparent (`0` opacity) and fully opaque at the end (`1` opacity).
 

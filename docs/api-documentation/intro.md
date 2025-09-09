@@ -8,8 +8,7 @@ toc_max_heading: 6
 This project documents the Chimoney REST API, including a Getting Started section and selected endpoints.
 
 ## What is Chimoney?
-Chimoney is a platform that allows for efficient payments across borders, multi-currency wallets and global payouts.  
-You can check the website site [here](https://chimoney.io).
+Chimoney is a platform that allows for efficient payments across borders, multi-currency wallets and global payouts. For more information, see the [Chimoney](https://chimoney.io) official website.
 
 
 

@@ -25,13 +25,14 @@ You can check the live site [here](https://pixieditor.net).
 
 :::
 
+**Getting STarted Page
 1. The tone and comprehensiveness of the **Procedural Animations** page. As well as the consistency of terms used and the headings.  
  
 **Example improvement:** 
-- **Previous**:
+- **Previous**:  
 ![A screenshot of the "Intro to Procedural Animations" page from PixiEditor](./img/procedural-animations-actual.png)
 
-- **New**: 
+- **New**:   
 ![A screenshot of the edited "Intro to Procedural Animations" page](./img/procedural-animations-edited.png)  
 
 

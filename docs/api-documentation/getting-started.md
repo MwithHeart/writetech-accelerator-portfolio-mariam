@@ -11,18 +11,18 @@ toc_max_heading: 6
 ## Create an account
 Create an account and learn how to use the Chimoney API.
 
-### For Businesses Integrating with the API: 
+### Businesses Integrating with the API: 
 1. Create an account **for businesses** at [dash.chimoney.io](https://dash.chimoney.io).
-2. On the collapsible menu, click the **Developers button** at the bottom.
-2. Choose **Create an app**.
-3. You get an API key once you name your app. Ensure you keep it safe.
+1. In the collapsible menu, below the list, click **Developers**.
+1. Choose **Create an app**.
+1. You get an API key once you name your app. Ensure you keep it safe.
 
 :::note  
 You can also book a demo or email **support@chimoney.io** to request **"Verification and API Access"**. Ensure you include links to your website and some details about your use case. 
 :::
 
 
-### For developers testing the API 
+### Developers testing the API 
 1. Create an account **for individuals** at the [sandbox environment](https://Sandbox.Chimoney.io).
 :::note
 Account is funded with $1000 of test amount
@@ -36,9 +36,9 @@ Account is funded with $1000 of test amount
 - You can watch [this video](https://www.loom.com/share/436303eb69c44f0d9757ea0c655bed89?sid=b6a0f661-721c-4731-9873-ae6f2d25780) on how to get started with the Chimoney Sandbox.
 
 ## The base URLs
-1. If testing in production then use the first URL: ```https://api.chimoney.io```
+1. Production URL: ```https://api.chimoney.io```
 
-2. Otherwise, switch to the sandbox version: ```https://api-v2-sandbox.chimoney.io```
+2. Sandbox testing URL: ```https://api-v2-sandbox.chimoney.io```
 
 ## Authentication process
 The Chimoney API uses an API Key for authentication, which can be obtained from the [Chimoney developer dashboard](https://dash.chimoney.io/developers).
@@ -52,7 +52,7 @@ Copy your API-KEY from the Developers tab and paste it into ```Authorization``` 
 
 
 ## A sample postman request
-Here is a sample Postman request to generate invoice data with AI.
+Below is a sample Postman request to generate invoice data with AI.
 ```
 POST/https://api-v2-sandbox.chimoney.io/v0.2/ai/invoice/generate
 Host: https://api-v2-sandbox.chimoney.io

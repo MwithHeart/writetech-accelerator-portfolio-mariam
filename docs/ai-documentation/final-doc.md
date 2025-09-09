@@ -10,7 +10,7 @@ This page contains the edited, polished version of the AI-generated FAQs.
 
 ### What is Qwen3?
 
-    Qwen3 is the laaatest generation of large language models developed by Alibaba Group's Qwen Team. It's a transformer-based language model that excels in natural language understanding, text generation, coding, and multilingual applications, supporting 119 languages and dialects.
+    Qwen3 is the latest generation of large language models developed by Alibaba Group's Qwen Team. It's a transformer-based language model that excels in natural language understanding, text generation, coding, and multilingual applications, supporting 119 languages and dialects.
 
 ### What model variants are available?
  - **Dense Models:** 0.6B, 1.7B, 4B, 8B, 14B, and 32B parameters.

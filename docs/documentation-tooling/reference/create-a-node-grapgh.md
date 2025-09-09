@@ -34,11 +34,11 @@ Here's how to create your first Node Graph:
 
 ## How to add nodes
 
-Now that our first Node Graph is ready, it's time to add some nodes to it.
+Now that the first Node Graph is ready, it's time to add some nodes to it.
 
 
 
-1. <kbd>Right click</kbd> or tap <kbd>Spacebar</kbd> on the empty area. This will open a context menu with a list of available nodes. 
+1. Tab spacebar or right click on the empty area. This opens a context menu with a list of available nodes. 
 2. Type the name of the node you want to add in the search bar.
 
 // ![The menu showing the node names](/img/ctx-menu.png "The ctx menu showing names of the nodes") 
@@ -57,7 +57,7 @@ This aspect contains how to add a **Shadow Filter** node. You can find the shado
 
 
 
-## Types of Nodes
+## Types of nodes
 
 In version 2.0.0.97, there are several types of nodes available:
 

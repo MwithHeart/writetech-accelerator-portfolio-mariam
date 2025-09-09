@@ -23,7 +23,7 @@ The timeline is the most important component of animation in PixiEditor. The tim
 
 You can access the timeline by either of these:
 - Click the timeline icon on top of the screen.
-- Go to `View -> Open Tab -> Timeline` menu.
+- Go to **View -> Open Tab -> Timeline** menu.
 
 ### Components of the timeline
 The image below shows the interface of the timeline.
@@ -73,10 +73,10 @@ The image below shows the interface of the timeline.
  --->
 
 3. **Action buttons**
-- Plus Icon - Adds an empty cel to the currently selected layer
-- Duplicate Icon- Creates a duplicated cel to the currently selected layer. Duplicates the content under active frame.
--  Onion Icon- - Toggles on/off onion skinning.
-- Trash Icon-- Deletes all selected cels.
+    - **Plus icon** - Adds an empty cel to the currently selected layer
+    - **Duplicate icon**- Creates a duplicated cel to the currently selected layer. Duplicates the content under active frame.
+    - **Onion icon** - Toggles on/off onion skinning.
+    - **Trash icon**- Deletes all selected cels.
 
 4. **Layer**
 
@@ -117,15 +117,14 @@ Both methods can be used together freely.
 
 Frame by frame animation is a traditional method of animating. It involves drawing each frame by hand.
 
-For more information, check out a dedicated [guide for frame by frame animations](https://pixieditor.net/docs/usage/animating/frame-by-frame/). 
+For more information, see [frame by frame animations](https://pixieditor.net/docs/usage/animating/frame-by-frame/). 
 
 ## Procedural animations
 
 PixiEditor gives full freedom over animations, meaning you can animate almost any property within the [Node Graph](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/). 
 It doesn't involve any manual drawing, unlike frame by frame animations, rather it is a combination of operations and parameters.
 
-Think of it as a set of instructions.
+Think of it as a set of instructions. For example:  
+- Move to the right by 10 pixels over 1 second
 
-`Move to the right by 10 pixels over 1 second`
-
-For more information, check out a dedicated [guide for procedural animation](https://pixieditor.net/docs/usage/animating/procedural/).
+For more information, see [procedural animation](https://pixieditor.net/docs/usage/animating/procedural/).
