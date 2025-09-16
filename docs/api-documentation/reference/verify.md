@@ -12,11 +12,10 @@ Authorization: Bearer YOUR_API_KEY
 ---
 ## Request parameters
 > **Body parameters:**  
-    - **ID:** The transaction ID (issueID).  
-    **Data Type:**  string, required
-
-    - **Subaccount:** The subaccount.   
-    **Data Type:**  string, optional
+| Field                 | 	Type	   	    |  Description    |
+| -------               | --------------    | --------------- |
+| ```ID```	            | string, required	        | The transaction ID (issueID)  |
+| ```Subaccoun```	    | string, optional	        | The subaccount  |
 
 
 ### Request example:

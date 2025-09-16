@@ -1,0 +1,7 @@
+{
+  "ignorePatterns": [
+    { "pattern": "https://(www\\.)?linkedin\\.com/.*" },  // Ignore all LinkedIn links
+    { "pattern": "https://(www\\.)?github\\.com/.*" }    // Ignore all GitHub links
+  ],
+  "timeout": "15s"  // Give links up to 15s to respond before failing
+}
