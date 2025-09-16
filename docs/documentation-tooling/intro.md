@@ -25,7 +25,7 @@ You can check the live site [here](https://pixieditor.net).
 
 :::
 
-**Getting STarted Page
+
 1. The tone and comprehensiveness of the **Procedural Animations** page. As well as the consistency of terms used and the headings.  
  
 **Example improvement:** 

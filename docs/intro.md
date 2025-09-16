@@ -3,8 +3,6 @@
 title: Welcome
 
 ---
-# Mariam's WriteTech Accelerator Portfolio
-
 # My portfolio
 
 :::note
@@ -16,7 +14,8 @@ Hello there 😊
 
 I’m **Mariam Yusuff**, a technical writer who believes documentation should feel like a guide, not a maze.  
 
-Here you’ll find my journey through **AI documentation, API docs, DevOps, automation, and Web3**, built with modern workflows and static site generators. Think of this portfolio as my “sandbox of clarity,” where I test, learn, and refine how docs can serve people better.  
+Here you’ll find my journey through **AI documentation, API docs, DevOps, automation, and Web3**, built with modern workflows and static site generators. 
+> Think of this portfolio as my **sandbox of clarity**, where I test, learn, and refine how docs can serve people better.  
 
 
 

@@ -5,13 +5,19 @@ title: POST/payment/verify
 # Verify a payment
 Use this to verify the status of a payment by using its issueID. 
 
-> **Authentication details:**   
+
+### Endpoint
+/payment/verify
+
+### **Authentication details:**   
 
 Authorization: Bearer YOUR_API_KEY
 
 ---
 ## Request parameters
-> **Body parameters:**  
+
+**HTTP Method:** POST
+### **Body parameters:**  
 | Field                 | 	Type	   	    |  Description    |
 | -------               | --------------    | --------------- |
 | ```ID```	            | string, required	        | The transaction ID (issueID)  |

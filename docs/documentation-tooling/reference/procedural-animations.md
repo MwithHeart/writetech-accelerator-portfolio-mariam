@@ -9,12 +9,11 @@ import sophGraphImg from 'assets/bopGraph.png';
 import resVideo from 'assets/opacity.webm';
 import bopVideo from 'assets/bop.webm';-->
 
-If you're here, it means you want to make some cool animations and that's nice. This is a guide on procedural animations and why they matter.
+This guide explains procedural animations and why they matter.
 
 
-::: tip  
-
-You should check [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first, to make it easier to understand this guide. With that, it's time to dive in.   
+:::tip  
+To understand this guide better, check [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first. 
 :::
 
 ## Introduction to procedural animations

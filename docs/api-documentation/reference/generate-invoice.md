@@ -1,15 +1,18 @@
 ---
-title: POST/invoice/generate
+title: Generate invoice with AI
 ---
 
-# AI invoice data generator
+# Generate invoice with AI
 Generates invoice data based on clear prompts in the request body. 
 
-> **Authentication details:**   
+### Endpoint
+/invoice/generate
 
+### **Authentication details:**   
 Authorization: Bearer YOUR_API_KEY
 
 ---
+
 ## Request parameters
 > **Body parameter:**  
 
@@ -28,6 +31,9 @@ This parameter is **required** and it should contain a clear instruction to gene
 ****
 
 ## Code sample
+
+**HTTP Method:** POST
+
 A code sample in curl:
 ```
 curl -X POST https://api.example.com/invoice/generate \
