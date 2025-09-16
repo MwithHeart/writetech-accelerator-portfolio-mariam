@@ -2,7 +2,7 @@
 slug: render-with-redocly
 title: How to Render an OpenAPI YAML file in Docusaurus Using Redocly
 authors: [mariam]
-tags: [hola, docusaurus]
+tags: [docusaurus]
 ---
 
 This guide explains how to render an OpenAPI YAML file in Docusaurus using redocly.  

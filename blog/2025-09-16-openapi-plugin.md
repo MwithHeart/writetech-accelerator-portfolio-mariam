@@ -2,7 +2,7 @@
 slug: open-api-plugin
 title: How to Render an OpenAPI YAML file on Docusaurus with a plugin
 authors: mariam
-tags: [hello, docusaurus]
+tags: [docusaurus]
 ---
 
 
