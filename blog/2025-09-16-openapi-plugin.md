@@ -1,13 +1,13 @@
 ---
 slug: open-api-plugin
 title: How to Render an OpenAPI YAML file on Docusaurus with a plugin
-authors: mariam
+authors: [mariam]
 tags: [docusaurus]
 ---
 
-
-
 This guide explains how to render an OpenAPI YAML file on docusaurus with the docusaurus-openapi-docs plugin.  
+
+<!-- truncate -->
 For this guide:
     - the Windows OS was used.
     - The docusaurus project is Javascript only

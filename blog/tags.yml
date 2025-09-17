@@ -1,8 +1,4 @@
-hello:
-  label: Hello
-  description: Hello tag description
-
 docusaurus:
   label: Docusaurus
+  permalink: docusaurus
   description: Page about using Docusaurus
-
