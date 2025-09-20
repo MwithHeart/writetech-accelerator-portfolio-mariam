@@ -51,7 +51,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'DevOps & Cloud Documentation',
-      items: ['devops-cloud-documentation/intro'],
+      items: ['devops-cloud-documentation/summary', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/reflection'],
     },
     {
       type: 'category',

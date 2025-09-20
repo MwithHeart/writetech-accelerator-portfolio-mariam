@@ -2,7 +2,7 @@
 
 # My portfolio
 
-:::note
+:::tip Note
 This portfolio is continuously evolving. Expect updates, experiments, and maybe a few unfinished pages as I grow through the WriteTech Accelerator Program.
 
 ::: 
@@ -17,7 +17,7 @@ Here you’ll find my journey through **AI documentation, API docs, DevOps, auto
 
 ## 👩🏽‍💻 About Mariam
 
-Docs should **teach**, not **intimidate**. That’s why I write with clarity, precision, and a bit of creativity.  
+Docs should **teach**, not **terrify**. That’s why I write with clarity, precision, and a bit of creativity.  
 
 My mission: to bridge the gap between humans and technology, one clear explanation at a time.  
 

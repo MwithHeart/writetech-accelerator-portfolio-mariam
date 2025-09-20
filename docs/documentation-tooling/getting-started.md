@@ -28,7 +28,7 @@ You can access the timeline by either of these:
 ### Components of the timeline
 The image below shows the interface of the timeline.
 
-![An image of timeline UI](./img/pix-editor-timeline.png "An image of the timeline interface")
+![An image of the timeline UI](./img/pix-editor-timeline.png "An image of the timeline interface")
 
 
 1. **Frames per second (FPS)** - this is used to set how fast the timeline should play the animation. Higher values require more frames for the same amount of time, but produce smoother result.
