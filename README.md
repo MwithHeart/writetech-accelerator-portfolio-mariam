@@ -2,10 +2,8 @@
 
 # My portfolio
 
-:::tip Note  
-This portfolio is continuously evolving. Expect updates, experiments, and maybe a few unfinished pages as I grow through the WriteTech Accelerator Program.  
-
-:::   
+> Note:  
+> This portfolio is continuously evolving. Expect updates, experiments, and maybe a few unfinished pages as I grow through the WriteTech Accelerator Program.   
 
 Hello there 😊
 
