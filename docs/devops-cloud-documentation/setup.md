@@ -76,11 +76,11 @@ If the job shows a green tick, the workflow worked.
 
 
 
-:::tip 📝 Pro Tip  
+:::tip 📝 Pro tip  
 You can create multiple workflows in the same repository for different tasks (testing, deployment, notifications, etc.).  
 :::
 
-### The Result
+### The result
 In the actions tab:
 - The left panel will show your workflow name (My First Workflow).
 - The label will be the commit message you used.

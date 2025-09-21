@@ -49,7 +49,7 @@ It is important to read README files properly as they contain important informat
 :::
 
 
-## Key Terms & Parameters
+## Key terms & parameters
 
 | Term                  | Explanation                       | 
 | ------------------    | ------------------------      | 
@@ -66,7 +66,7 @@ It is important to read README files properly as they contain important informat
 
 
 
-## Tweaked Workflow
+## Tweaked workflow
 Here’s a slightly modified version of the official README workflow:  
 ```
     name: Link Checker
@@ -129,8 +129,15 @@ Try to understand the code yourself before reading the explanation below:
 2. Add one regex per line for links you want to ignore. Example:  
 
     ```
-    https://example.com/unstable-link
-    https://localhost:*
+    # Ignore all LinkedIn links
+    https://(www\.)?linkedin\.com\/.*
+
+    # Ignore all Dribble links
+    https://(www\.)?dribble\.com\/.*
+
+
+    # Ignore all Substack links
+    https://(www\.)?substack\.com\/.*
     ```
 
 3. Save file and push to github. 

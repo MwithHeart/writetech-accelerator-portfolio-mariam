@@ -60,12 +60,12 @@ But with GitHub Actions:
 
 ## Common uses of GitHub Actions 
 - **Testing Code:** Ensures your code works before sharing it with the world.  
-- **Building Apps:** Turns your code into a finished product (like compiling a mobile app).
+- **Building Apps:** Turns your code into a finished product like compiling a mobile app.
 - **Deploying (Publishing):** Automatically puts your website or app online so others can use it.
 - **Sending notifications:** Informs your team when something breaks or succeeds.
 
 ## Advantages of CI/CD (and GitHub Actions)
 - **Saves time:** You don’t repeat boring manual steps.
-- **Catches mistakes early:** Errors are found before they cause problems.
+- **Catches mistakes early:** Find errors before they cause problems.
 - **Works continuously:** It keeps running, even when you’re asleep.
 - **Scales easily:** Suitable for small or large teams.
