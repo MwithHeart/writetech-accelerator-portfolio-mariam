@@ -19,13 +19,14 @@ Imagine you’re planning a party.
 With the first option, you might forget something, like cake, or scramble to fix last-minute problems.  
 With the second option, the planner sets everything up exactly how you want.  
 
-::: tip  
-In tech:
-- Your party list would be Infrastructure as Code (IaC)
-- The event planner would be an IaC tool (Terraform, CloudFormation, etc.)  
-:::
+> In tech:  
+> - Your party list would be Infrastructure as Code (IaC)  
+> - The event planner would be an IaC tool such as Terraform, CloudFormation, etc.  
+
 
 Instead of manually clicking through cloud dashboards to create servers and networks, you write code describing your infrastructure, and the IaC tool sets everything up consistently.
+
+---
 
 ### 🖥️What is infrastructure
 Infrastructure refers to everything your app needs to run properly, such as:  
@@ -35,9 +36,11 @@ Infrastructure refers to everything your app needs to run properly, such as:
 - Load balancers: Tools to distribute traffic evenly
 - Firewalls: Security walls for your systems
 
-:::tip  
-Think of infrastructure as the ingredients needed to bake your "app cake."  
-:::
+> Tip:  
+> Think of infrastructure as the ingredients needed to bake your "app cake."  
+
+
+---
 
 ## ⚙️How IaC works 
 Here’s a simple breakdown of how IaC works:  
@@ -47,8 +50,10 @@ Here’s a simple breakdown of how IaC works:
 - Manage: The IaC tool is further used to manage the infrastructure, update, or delete it by editing the code  
 
 
-Add a mini diagram (optional):
- Developer → Writes Code → Git → IaC Tool → Cloud Provider → Resources Created
+/* Developer → Writes Code → Git → IaC Tool → Cloud Provider → Resources Created */
+
+
+---
 
 ## 🚀 Why IaC matters
 Traditionally, setting up infrastructure meant logging into Amazon Web Services (AWS), Google Cloud Platform (GCP), or other cloud services, and clicking around to create servers manually. This is slow and prone to error. 
@@ -63,6 +68,8 @@ IaC solves this by automating and standardizing the process.
 - **Scalability:** Makes it easier to scale up/down with demand
 
 
+---
+
 ## 🛠️ Popular IaC tools 
 Here are some common IaC tools:
 - **Terraform:** Terraform, also called HashiCorp Terraform, is a popular IaC tool. It allows infrastructure management across multiple cloud providers using a simple declarative language known as HashiCorp Language (HCL). 
@@ -73,6 +80,8 @@ Here are some common IaC tools:
 
 - **Ansible:** This tool is often used alongside Terraform to configure servers after creation.
 
+
+---
 
 ## 📜 Simple example with Terraform
 Here’s a small Terraform example that creates an AWS `S3 bucket`:
@@ -88,6 +97,8 @@ Here’s a small Terraform example that creates an AWS `S3 bucket`:
     ```
 This creates an `S3 bucket` in AWS with just a few lines of code.
 
+---
+
 ## Challenges & best practices
 ### ⚠️Common challenges
 - Learning curve: New syntax and concepts can feel intimidating.
@@ -101,25 +112,31 @@ This creates an `S3 bucket` in AWS with just a few lines of code.
 - Encrypt and securely store credentials (use AWS Secrets Manager, Vault).
 
 
+---
+
 ## 🌎Real-world use cases
 - Spin up environments for developers on-demand - Dev/Test environments.
 - Add servers quickly during Black Friday or peak events - Scalability.
 - Rebuild entire infrastructure in minutes after outages - Disaster Recovery
 
 
+---
+
 ## 🏁How to get started
-1. Install [Terraform](https://developer.hashicorp.com/terraform/install) (or another IaC tool)
+1. Install [Terraform](https://developer.hashicorp.com/terraform/install) (or another IaC tool).
 
 2. Follow a beginner tutorial such as this tutorial on [getting started with AWS using Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started).
 
-3. Write your first `.tf` file. Start with one resource (like the S3 bucket in the previous example)
+3. Write your first `.tf` file. Start with one resource (like the `S3 bucket` in the previous example).
+
+---
 
 ## 🎯Conclusion
 Infrastructure as Code is like having a recipe for your infrastructure—consistent, repeatable, and easy to share. By automating infrastructure setup, you save time, avoid errors, and make scaling easier.
 
-:::tip Next Step  
-Build something real, like a developer environment with an EC2 instance. This should be a great addition to your portfolio or resume!  
-:::
+> **Next Step**  
+> Build something real, like a developer environment with an EC2 instance. This should be a great addition to your portfolio or resume.
+
 
 
 
