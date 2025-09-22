@@ -1,85 +1,3 @@
-
-# Documentation tooling overview 
-This project involved auditing and restructuring documentation for PixiEditor using Docusaurus.
-
-## PixiEditor
-PixiEditor is a free, opensource Universal 2D editor that allows users to create pixel art, vector graphics and animations in 2D.  
-You can check the live site [here](https://pixieditor.net).
-
-## Improved pages
-- **Getting Started:** Introduces users to the basics of animations
-- **Create a Node Graph:** Guides users on how create their first Node Graph in PixiEditor.
-- **Procedural Animations:** Step-by-step guide on how to create procedural animations
-
-
-:::tip  Improvements made  
-📝 Improved tone  
-📝 Clearer steps  
-📝 Restructured long, confusing paragraphs
-
-:::
-
-1. The tone and comprehensiveness of the **Procedural Animations** page. As well as the consistency of terms used and the headings.  
- 
-**Example improvement:** 
-- **Previous**:
-![A screenshot of the "Intro to Procedural Animations" page from PixiEditor](./img/procedural-animations-actual.png)
-
-- **New**: 
-![A screenshot of the edited "Intro to Procedural Animations" page](./img/procedural-animations-edited.png)  
-
-
-2. I restructured confusing paragraphs and made them easier to understand. In the image below, the **Node Type** was added as a summary in the middle of a list.   
-I moved it below the list and brought it out as a separate heading instead of a collapsible summary that readers can easily overlook.  
-**Example improvement:** 
-- **Previous**: 
-![A screenshot of the "How to Create a Node Graph" page from PixiEditor](./img/nodes-actual.png)
-
-- **New**:  
-![A screenshot of the edited "How to Create a Node Graph" page](./img/nodes-edited.png)  
-
-
-3. I noticed information on the [Getting started with animations](docs/documentation-tooling/getting-started.md) page was scattered and confusing so I grouped similar information.  
-
-**Example improvement**  
-
-- **Previous**:  
-![A screenshot of the "Getting Started with Animations" page from PixiEditor](./img/start-animations-actual.png)
-
-- **New**:  
-![A screenshot of the edited "Getting Started with Animations" page](./img/start-animations-edited1.png)  
-![A screenshot of the second edited "Getting Started with Animations" page](./img/start-animations-edited2.png)  
-
-
-
-
-## Challenges
-- It was challenging choosing an open source project in the first place. 
-- Restructuring documentation while ensuring it is beginner-friendly. 
-
-
-## Key takeaways
-- I learnt how important consistency is in documentation. 
-- I learnt to implement the docs-as-code workflow.
-
-
-
-
----
-title: Project Overview
-# sidebar_position: 1
-toc_min_heading: 2
-toc_max_heading: 6
----
-import actualImg from './img/start-animations-actual.png';
-import editedImg from './img/start-animations-edited1.png';
-import actualNode from './img/nodes-actual.png';
-import editedNode from './img/nodes-edited.png';
-import actualAnims from './img/procedural-animations-actual.png';
-import editedAnims from './img/procedural-animations-edited.png';
-
-
-
 # Documentation tooling overview 
 This project focused on auditing and restructuring documentation for PixiEditor using Docusaurus. The goal was to enhance clarity, improve navigation, and provide a consistent user experience for both beginners and advanced users.
 
@@ -98,14 +16,6 @@ I performed the following tasks:
 - **Standardized headings and tone** for consistency across the documentation.
 
 
-## Improved pages
-
-:::tip  Improvements made  
-📝 Improved tone  
-📝 Clearer steps  
-📝 Restructured long, confusing paragraphs
-
-:::
 
 ### Page 1: Getting started 
 Introduces users to the basics of animations.  
@@ -118,21 +28,6 @@ Introduces users to the basics of animations.
 
 **Example Improvement:** Clearer sentences and image with properly annotated image   
    
-
-<div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1', textAlign: 'center' }}>
-    <p><strong>Previous</strong></p>
-    <img src={actualImg} alt="Original Getting Started Page" width="100%" style={{ borderRadius: '8px', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
-  </div>
-  
-  <div style={{ flex: '1', textAlign: 'center' }}>
-    <p><strong>Updated</strong></p>
-    <img src={editedImg} alt="Edited Getting Started Page" width="100%" style={{ borderRadius: '8px', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
-  </div>
-</div>
-
-
-
 ---
 
 ### Page 2: Create a node graph
@@ -145,19 +40,6 @@ Guides users on how to create their first Node Graph in PixiEditor.
 
 **Example Improvement:** Clearer sentences and reorganized steps for logical flow
    
-
-<div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1', textAlign: 'center' }}>
-    <p><strong>Previous</strong></p>
-    <img src={actualNode} alt="Original Create a Node Graph page" width="100%" style={{ borderRadius: '8px', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
-  </div>
-  
-  <div style={{ flex: '1', textAlign: 'center' }}>
-    <p><strong>Updated</strong></p>
-    <img src={editedNode} alt="Edited Create a Node Graph page" width="100%" style={{ borderRadius: '8px', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
-  </div>
-</div>
-
 ---
 
 
@@ -172,22 +54,6 @@ Step-by-step guide to creating procedural animations.
 
 **Example Improvement:** Clearer sentences and reorganized steps for logical flow
    
-
-<div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
-  <div style={{ flex: '1', textAlign: 'center' }}>
-    <p><strong>Previous</strong></p>
-    <img src={actualAnims} alt="Original Intro to Procedural Animations page" width="100%" style={{ borderRadius: '8px', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
-  </div>
-  
-  <div style={{ flex: '1', textAlign: 'center' }}>
-    <p><strong>Updated</strong></p>
-    <img src={editedAnims} alt="Edited Intro to Procedural Animations page" width="100%" style={{ borderRadius: '8px', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }} />
-  </div>
-</div>
-
-
-
-
 ---
 
 ## Challenges
