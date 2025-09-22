@@ -2,150 +2,91 @@
 title: Procedural animations
 ---
 
-<!-- import Node from '../../../../components/Node.astro'; 
-import {Image} from 'astro:assets';
-import simpleGraphImg from 'assets/opacitygraph.png';
-import sophGraphImg from 'assets/bopGraph.png';
-import resVideo from 'assets/opacity.webm';
-import bopVideo from 'assets/bop.webm';-->
 
-This guide explains procedural animations and why they matter.
+This guide introduces **procedural animations**, explains why they matter, and how to create both simple and complex animations using nodes.
 
 
 :::tip  
-To understand this guide better, check [basics of animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [getting started with nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) first. 
+Before diving in, you may find it helpful to review the [Basics of Animations](https://pixieditor.net/docs/usage/animating/getting-started/) and [Getting Started with Node Graphs](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) pages. 
 :::
 
-## Introduction to procedural animations
+---
 
-A Procedural Animation is an animation that's generated based on logic and input parameters. It's important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead. 
+## What is Procedural animation
 
+Procedural animation refers to animations that are generated based on logic and input parameters. It's important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead.   
 
-## Important animation nodes 
+---
 
-Here are some important animation nodes which make animating easier:
+## Key animation nodes 
 
+The following nodes are essential when working with procedural animations:  
 
-<!-- <br/> 
+- **Time node:** Provides the current position in the animation timeline. It exposes:
+  - **Active Frame:** The current frame being displayed.
+  - **Normalized Time;** A value between `0.0` (start of animation) and `1.0` (end of animation).  
 
-<a style={{textDecoration: "none"}} href="/docs/usage/node-graph/nodes/animation/time"><Node data={{
-    name: 'Time',
-  category: "Animation",
-  icon: "icon-clock",
-  isPair: false,
-  hasPreview: false,
-  inputs: null,
-  outputs: [
-        {
-        name: "Active Frame",
-        type: "Integer",
-        description: 'The current active frame in the timeline.',
-        isContextful: false,
-        default: '0'
-        },
-   { 
-    name: "Normalized Time",
-    type: "Double",
-    description: 'The normalized time value, ranging from 0.0 to 1.0, representing the current position in the timeline relative to the total duration.',
-    isContextful: false,
-    default: '0.0'}],
-  description: 'Provides the current time in the animation timeline, including the active frame and normalized time.'
-}}/></a>
+    ![The time node](../img/time-node.png "The time node") 
 
-<br/>
+- **Easing node** - Easing applies smooth transitions to animations, such as ease-in, ease-out, or elastic effects.
+    ![Easing node](../img/easing-node.png "Easing node")  
+  
 
-<a style={{textDecoration: "none"}} href="/docs/usage/node-graph/nodes/animation/easing"><Node data={{
-  name: "Easing ",
-  category: "Animation",
-  icon: "icon-spline-chart",
-  isPair: false,
-  hasPreview: false,
-  inputs: [
-    {
-      name: "Value",
-      type: "Double",
-      description: "The input value to be eased. This value should be between 0 and 1.",
-      isContextful: true,
-      default: "0.0"
-    },
-    {
-      name: "Easing Type",
-      type: "EasingType (Enum)",
-      hideSocket: true,
-      typeLink: "/docs/usage/node-graph/nodes/animation/easing#easing-types",
-      description: "The type of easing function to apply to the input value. This determines how the value transitions over time.",
-      isContextful: false,
-      default: "Linear"
-    }
-  ],
-  outputs: [
-    {
-      name: "Output",
-      type: "Double",
-      description: "The eased output value, which is the result of applying the selected easing function to the input value.",
-      isContextful: true,
-      default: "0.0"
-    }
-  ],
-  description: "Applies an easing function to a value, transforming it based on the selected easing type. This is useful for creating smooth transitions in animations."
-}}/></a>
+:::note  
+Other nodes in the Animation category are also useful and can be combined to create unique effects.  
+:::
 
-<br/>
--->
-
-- **Time node** - This is essential to get the active frame or normal time of the animation.
-- **Easing** - Easing provides various built-in smoothing operations. Read more about [easing here](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).   
-
-While these nodes are important, it's important to note that other nodes in the `Animation` category are also important. 
+---
 
 ## Create a basic procedural animation
 
-<!-- <Image src={simpleGraphImg} alt="Simple graph that connects Normalized Time of Time Node to Layer's Opacity input"/> 
+Follow these steps to create a simple opacity animation:
 
-Will produce 
+1. Connect the **Normalized Time** node to **Output** under the image node. 
 
-<video src={resVideo} muted autoplay loop/>
+    ![The connected nodes](../img/simple-procedural-animation.png "The connected nodes") 
 
-<br/>
+2. Use the **Normalized Time** output to track animation progress. For example, in a 2-second animation, the normalized time at 1 second is **0.5**.   
 
-Neat, isn't it? 
--->
-
-
-
-1. Time Node exposes the [Normalized Time](https://pixieditor.net/docs/usage/node-graph/nodes/animation/time/), which is a value between 0 and 1.  
-Where 0 is start of the animation and 1 is the end of it. For a 2 second animation, the normalized time at 1 second is **0.5**.
-
-      ![An opacity graph](/img/opacity-graph.png "An opacity graph")
-
-2. To connect Normalized Time to the Image's Opacity, at the beginning of the animation, the image is transparent (`0` opacity) and fully opaque at the end (`1` opacity).
+### The result
+This produces a smooth fade-in effect over the duration of the animation.
+  - At the beginning (0), the image is fully transparent.
+  - At the end (1), the image is fully opaque.
 
 
+---
 
-## A more complex procedural animation 
+## Creating a more complex procedural animation
 
-<!-- <Image src={sophGraphImg} alt="Simple graph that connects Normalized Time of Time Node to Layer's Opacity input"/> -->
-// ![A complex procedural graph](/img/bopGraph.png "A complex procedural graph")
+You can chain multiple nodes together to create advanced effects.  
 
+Here’s a breakdown of a Rotation and Scale animation workflow:
 
+1. Get the animation time (0 to 1 range) using the tiem node.
 
-The core concepts in the preceding graph are:
+2. Create a smoothing effect by connecting the time to Easing node. For example, use Elastic easing for a bounce effect.
 
-1. Get the time of the animation: 0 - 1 range.
+3. Combine rotation and scaling:
+    - Scale: Connect the eased time directly. This makes the object grow from invisible (0) to full size (1).
+    - Rotation: Multiply the eased time by 360 so the object rotates one full turn.
 
-2. Create a smoothing effect --- elastic, in this example --- by plugging the time to Easing node. Read more about [easing here](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).
+4. Combine effects using a Matrix Input/Output Node. This allows scale and rotation to be applied together.
 
-3. Create a "rotation + scale" effect by combining two nodes with **"Matrix Input"** and **"Matrix Output."**
+    ![A complex procedural graph](/img/bopGraph.png "A complex procedural graph")
 
-    - Scale can be directly connected with easing, because it should go from invisible (0 scale) to full size (1 scale).
+The result is a smooth, rotating, and scaling animation, perfect for attention-grabbing effects.
 
-    - Rotation must be in 0 - 360 range to make image rotate in a full circle. This is done by multiplying eased time by 360.
+---
 
-4. Plug the source image to the Scale Node. In this case, the Scale Node not only scales but also rotates because we plugged in the result of rotation to it. 
-You can combine multiple effects into one with yellow [Matrix](https://pixieditor.net/docs/usage/node-graph/property-sockets/) inputs.
+## Key takeaways
 
-The effect of the preceding steps is an enlarged smooth animation.
+- Procedural animations give you fine control over timing and transitions.
+- Experimentation is key. Try combining nodes in creative ways.
+- The more comfortable you get with nodes, the faster you can create unique, dynamic effects.
 
-<!-- <video src={bopVideo} muted autoplay loop/> -->
+---
+## Further learning
+To learn more:
+- [Easing](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).
+- [Normalized time](https://pixieditor.net/docs/usage/node-graph/nodes/animation/time#normalized-time)
 
-The possibilities are truly endless. Take your time, play around with nodes and have fun. That's the best way to learn.

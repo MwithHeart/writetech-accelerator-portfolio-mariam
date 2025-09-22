@@ -59,9 +59,9 @@ But with GitHub Actions:
 3. If there’s an error, it notifies you right away. Like the robot assistant saying, “Hey! Something’s wrong.”
 
 ## Common uses of GitHub Actions 
-- **Testing Code:** Ensures your code works before sharing it with the world.  
-- **Building Apps:** Turns your code into a finished product like compiling a mobile app.
-- **Deploying (Publishing):** Automatically puts your website or app online so others can use it.
+- **Testing csode:** Ensures your code works before sharing it with the world.  
+- **Building apps:** Turns your code into a finished product like compiling a mobile app.
+- **Deploying (publishing):** Automatically puts your website or app online so others can use it.
 - **Sending notifications:** Informs your team when something breaks or succeeds.
 
 ## Advantages of CI/CD (and GitHub Actions)

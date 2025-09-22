@@ -1,79 +1,84 @@
 ---
-title: Create a Node Graph
-description: Learn how to create your first Node Graph in PixiEditor.
+title: Create a Node graph
+description: Step-by-step guide to creating your first Node Graph in PixiEditor, including adding nodes and using filters.
 
 ---
 
-<!-- import { List } from 'starlight-videos/components' 
-import { Aside } from '@astrojs/starlight/components';
-import { Steps } from '@astrojs/starlight/components';
-import { Image } from 'astro:assets';
-import ctxMenuImage from './assets/ctx-menu.png';
-import { Quiz, QuizOption } from 'starlight-videos/components'
--->
-# How to create a node graph
-Welcome to Nodes. It's nice that you have decided to learn about Node Graphs in PixiEditor. Node is a fascinating and powerful system in animating. 
+# Create a Node Graph in PixiEditor  
+Welcome to Nodes.🎉 The Node system is a powerful way to build and control animations in a non-destructive, flexible workflow.    
 
 :::caution
-
-Node Graph is a feature only present in PixiEditor 2.0 and later versions.
-
+Node Graphs are available only in PixiEditor 2.0 and later versions. Ensure you are running a compatible version before continuing.
 :::
 
-## Creating your first node graph
+## Create your first Node Graph
 
-We recommend you read the [Getting Started with Nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/) guide first, if you haven't done so. There, you will learn the basics of nodes and how they work.
+Before you start, we recommend reading [Getting Started with Nodes](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph/). It explains the basics of nodes and how they work.  
 
-Here's how to create your first Node Graph:
+Follow these steps to create your first Node Graph:  
 
+1. Go to **File** menu, then click **New** to create a new document in PixiEditor.
+2. Open the **Graph View** by either of these methods:
+    - Click the **Graph View** icon at the top center of the window.
+    - Go to **View** menu, click **Open Tab** and click **Graph View**.
+3. This shows a Node Graph with a single base layer connected to the Output Node. This is the starting point of the Node Graph.
 
+---
 
-1. Go to `File -> New` to create a new document in PixiEditor.
-2. Click the **Graph View** icon in the top center of the window to open the Node Graph. Or go to `View -> Open Tab -> Graph View`.
-3. You will see a Node Graph with a single layer connected to the Output Node. This is the starting point of the Node Graph.
+## Add Nodes to the graph  
 
-## How to add nodes
+Now that your Node Graph is ready, you can start adding nodes.  
 
-Now that the first Node Graph is ready, it's time to add some nodes to it.
+1. Open the context menu:  
+   - Press the spacebar, or  
+   - Right-click an empty area of the graph.  
 
+2. Search and add a node:  
+   - Type the node name in the search bar.  
+    ![The menu showing the available nodes](../img/search-for-nodes.png "The menu showing names of the nodes") 
 
+   - Click the node from the list to add it.  
 
-1. Tab spacebar or right click on the empty area. This opens a context menu with a list of available nodes. 
-2. Type the name of the node you want to add in the search bar.
+---
 
-// ![The menu showing the node names](/img/ctx-menu.png "The ctx menu showing names of the nodes") 
+### Example: Add a Shadow Filter node 
+Let’s add a Shadow Filter node and connect it to the Base Layer: 
 
+1.  Go to the **Filters** category and click **Shadow Filter** to add it to the node graph.  
 
-### How to add a shadow filter node
-This aspect contains how to add a **Shadow Filter** node. You can find the shadow filter icon in the **Filters** category.
+2. Find the red circle <span style={{color: "#cc5c5c"}}>⬤</span> next to the **Filter** label on the right side of the node.  
+3. Drag the circle to the matching red socket on the Base Layer node (on the left side). 
 
-1. Click on **Shadow Filter** node to add it to the Node Graph.
+4. Select **Base Layer** in the Layers panel.
+5. Draw on your document, you should see a shadow effect applied in real-time.
 
-2. Click on the red-ish circle <span style={{color: "#cc5c5c"}}>⬤</span>, next to the "Filter" label, on the right side of the **Shadow Filter** node.
-
-3. Drag the circle to the "Filter" socket with the same color in the **Base Layer** node (on the **left** side of the node). 
-
-4. With base Layer selected in the Layers panel, go back to your document and try drawing something. You should see a shadow effect applied to your drawing.
-
-
+---
 
 ## Types of nodes
 
-In version 2.0.0.97, there are several types of nodes available:
+PixiEditor 2.0.0.97 includes several node categories: 
 
-- **Color** - This includes nodes that allow you to manipulate colors in various ways. For example, nodes that separate colors into RGB, HSV, and HSL, 
-- **Image** - It's a big category with various nodes, such as Create Image, Mask, Noise, and more, which allow you to work with images.
-- **Structure** - "Structure" in PixiEditor refers to the elements in a layer tree. This includes Image Layers, Vector Layers and Folders.
-- **Numbers** - Various numerical related nodes, most notably the Math node, which allows you to perform mathematical operations on numbers.
-- **Effects** - Standalone effects such as Raster Outline or Custom Shader.
-- **Workspace** - Nodes that allow for workspace customization; multiple outputs and export zones.
-- **Shape** - Nodes that allow you to create and manipulate shapes
-- **Matrix** - This includes matrix-related nodes. For example Transform, which allows you to manipulate the position, rotation, and scale of nodes.
-- **Filters** - Nodes that contain various filters - for example, Blur, Shadow, and Color Correction.
-- **Animation** - Nodes that allow you to create procedural animations.
-- **Misc** - Miscellaneous nodes that don't fit into any other category, such as Document Info.
+- Color - Includes nodes that work with colors.
+- Image - Nodes such as create, mask, and those that manipulate images such as Noise, Mask.
+- Structure - Represent elements in a layer tree like Image Layers, Vector Layers, and Folders.
+- Numbers - Nodes that perform numerical operations. For example, Math node.  
+- Effects - Apply visual effects such as Raster Outline or Custom Shader. 
+- Workspace - Nodes for customizing outputs and exporting zones.
+- Shape - Nodes allow you to create and manipulate shapes.
+- Matrix - Matrix-related nodes like Transform.
+- Filters - Apply effects like Blur, Shadow, and Color Correction with these nodes.
+- Animation - Nodes for creating procedural animations.
+- Misc - Miscellaneous nodes, such as Document Info.
 
-### Sockets
 
-You may have noticed that the nodes have different colored circles and diamonds on their sides. These are called **sockets**. They're used to connect nodes together and transfer data between them.
-To learn more about sockets, check out the [Sockets](https://pixieditor.net/docs/usage/node-graph/property-sockets/) guide.
+---
+
+## Understanding sockets
+
+Nodes have colored **sockets** (circles or diamonds) on their sides. These are used to connect nodes together and transfer data between them.  
+
+> To learn more, check [Sockets Guide](https://pixieditor.net/docs/usage/node-graph/property-sockets/).
+
+---
+
+ 
