@@ -11,13 +11,12 @@ This guide introduces Infrastructure as Code (IaC) in a beginner-friendly way. Y
 
 ---
 
-Imagine you’re planning a party.  
+Imagine you’re planning a party, you could use the: 
 - **Manual way:** You go to the market yourself to buy chairs, tables, plates, drinks, balloons, and fans one by one.
 
-- **Automated way:** You write a list (50 chairs, 5 tables, 3 fans) and give it to an event planner to set it up for you.  
+- **Automated way:** You write a list, "50 chairs, 5 tables, 3 fans", and give it to an event planner to set it up for you.  
 
-With the first option, you might forget something, like cake, or scramble to fix last-minute problems.  
-With the second option, the planner sets everything up exactly how you want.  
+With the first option, you risk forgetting something important, like cake. But with the second option, the planner sets everything up exactly how you want.  
 
 > In tech:  
 > - Your party list would be Infrastructure as Code (IaC)  
@@ -28,7 +27,7 @@ Instead of manually clicking through cloud dashboards to create servers and netw
 
 ---
 
-### 🖥️What is infrastructure
+### 🖥️ What is infrastructure
 Infrastructure refers to everything your app needs to run properly, such as:  
 - Servers: Computers that run your apps
 - Databases: Where information is stored
@@ -42,7 +41,7 @@ Infrastructure refers to everything your app needs to run properly, such as:
 
 ---
 
-## ⚙️How IaC works 
+## ⚙️ How IaC works 
 Here’s a simple breakdown of how IaC works:  
 - Write: Developers define the infrastructure in code format using formats like YAML, HCL, JSON etc
 - Store: They save the code in a version control such as Git
@@ -100,12 +99,12 @@ This creates an `S3 bucket` in AWS with just a few lines of code.
 ---
 
 ## Challenges & best practices
-### ⚠️Common challenges
+### ⚠️ Common challenges
 - Learning curve: New syntax and concepts can feel intimidating.
 - Security concerns: You must manage secrets (keys, credentials) securely.
 - State management: Tools like Terraform keep a “state file” and mishandling it can cause issues.
 
-### ✅Best practices:
+### ✅ Best practices:
 - Store code in version control (GitHub, GitLab).
 - Use pull requests to review infrastructure changes.
 - Test in staging environment before applying to production.
@@ -114,7 +113,7 @@ This creates an `S3 bucket` in AWS with just a few lines of code.
 
 ---
 
-## 🌎Real-world use cases
+## 🌎 Real-world use cases
 - Spin up environments for developers on-demand - Dev/Test environments.
 - Add servers quickly during Black Friday or peak events - Scalability.
 - Rebuild entire infrastructure in minutes after outages - Disaster Recovery
@@ -122,7 +121,7 @@ This creates an `S3 bucket` in AWS with just a few lines of code.
 
 ---
 
-## 🏁How to get started
+## 🏁 How to get started
 1. Install [Terraform](https://developer.hashicorp.com/terraform/install) (or another IaC tool).
 
 2. Follow a beginner tutorial such as this tutorial on [getting started with AWS using Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started).
@@ -131,7 +130,7 @@ This creates an `S3 bucket` in AWS with just a few lines of code.
 
 ---
 
-## 🎯Conclusion
+## 🎯 Conclusion
 Infrastructure as Code is like having a recipe for your infrastructure—consistent, repeatable, and easy to share. By automating infrastructure setup, you save time, avoid errors, and make scaling easier.
 
 > **Next Step**  
