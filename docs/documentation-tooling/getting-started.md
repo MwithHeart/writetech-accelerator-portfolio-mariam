@@ -39,25 +39,25 @@ The timeline contains several components:
     - **Plus icon** - Adds an empty cel to the selected layer
     - **Duplicate icon**- Duplicates the current cel
     - **Onion icon** - Toggles onion skinning on/off
-    - **Trash icon**- Deletes selected cels.
+    - **Trash icon** - Deletes selected cels
 
 4. **Layers panel**  
     From left to right:
     - **Eye icon** - Show/hide the layer
-    - **Image thumbnail** - Displays the layer's base image.
+    - **Image thumbnail** - Displays the layer's base image
     - **Layer name** – Name of the layer (e.g., *Slime*)  
     - **Collapse button** – Minimize the layer to save space
 
 5. **Playback controls**  
-    -  ⏮ Step start- - Jump to the beginning of the cel  
-    - ◀ Step Back – Move back one frame  
-    - ▶ Play – Play the animation  
-    - ▶ Step Forward – Move forward one frame  
-    - ⏭ Step End – Jump to the end of the cel  
-    - 00:00.08 / 00:01.75 – Current time and total time in `mm:ss.ff` format. `mm` for minutes, `ss` for seconds, `ff` for hundredths of a second  
+    -  ⏮ **Step start**- - Jump to the beginning of the cel  
+    - ◀ **Step Back** – Move back one frame  
+    - ▶ **Play** – Play the animation  
+    - ▶ **Step Forward** – Move forward one frame  
+    - ⏭ **Step End** – Jump to the end of the cel  
+    - **00:00.08 / 00:01.75** – Current time and total time in `mm:ss.ff` format. `mm` for minutes, `ss` for seconds, `ff` for hundredths of a second  
 
 6. **Frame bar**   
-    The top slider that lets you:
+    This is the top slider that lets you:
    - Drag to change the active frame  
    - Zoom in/out by scrolling over it
    - View frame numbers and ticks
@@ -81,10 +81,14 @@ The traditional method of animation. You draw each frame manually to create smoo
 
 
 ### 2. Procedural animations
-This method uses **operations and parameters** to create movement without manually drawing frames. Think of it as giving a set of instructions. 
-For example: *Move to the right by 10 pixels over 1 second*
+This method uses operations and parameters to create movement without manually drawing frames. 
+Think of it as giving a set of instructions. 
+For example: *Move to the right by 10 pixels over 1 second.*  
+With this method, you can animate almost any property within the Node graph.  
 
-> To learn more, check: [Procedural Animation](https://pixieditor.net/docs/usage/animating/procedural/).  
+> To learn more, check: 
+> - [Procedural Animation](https://pixieditor.net/docs/usage/animating/procedural/).  
+> - [Node Graph](https://pixieditor.net/docs/usage/node-graph/getting-started-with-node-graph)
 
 
 :::tip  

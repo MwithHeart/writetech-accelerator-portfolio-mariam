@@ -1,6 +1,6 @@
 ---
 title: Create a Node graph
-description: Step-by-step guide to creating your first Node Graph in PixiEditor, including adding nodes and using filters.
+description: Step-by-step guide to create your first Node Graph in PixiEditor, including adding nodes and using filters.
 
 ---
 
@@ -29,7 +29,7 @@ Follow these steps to create your first Node Graph:
 
 Now that your Node Graph is ready, you can start adding nodes.  
 
-1. Open the context menu:  
+1. Open the context menu containing nodes:  
    - Press the spacebar, or  
    - Right-click an empty area of the graph.  
 
@@ -46,7 +46,7 @@ Let’s add a Shadow Filter node and connect it to the Base Layer:
 
 1.  Go to the **Filters** category and click **Shadow Filter** to add it to the node graph.  
 
-2. Find the red circle <span style={{color: "#cc5c5c"}}>⬤</span> next to the **Filter** label on the right side of the node.  
+2. Find the red circle <span style={{color: "#cc5c5c"}}>⬤</span> on the right side of the **Filter node** label.
 3. Drag the circle to the matching red socket on the Base Layer node (on the left side). 
 
 4. Select **Base Layer** in the Layers panel.
@@ -75,9 +75,9 @@ PixiEditor 2.0.0.97 includes several node categories:
 
 ## Understanding sockets
 
-Nodes have colored **sockets** (circles or diamonds) on their sides. These are used to connect nodes together and transfer data between them.  
+Nodes have colored sockets (circles or diamonds) on their sides. These are used to connect nodes together and transfer data between them.  
 
-> To learn more, check [Sockets Guide](https://pixieditor.net/docs/usage/node-graph/property-sockets/).
+> To learn more, check [Property Sockets](https://pixieditor.net/docs/usage/node-graph/property-sockets/).
 
 ---
 

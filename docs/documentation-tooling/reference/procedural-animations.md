@@ -3,7 +3,7 @@ title: Procedural animations
 ---
 
 
-This guide introduces **procedural animations**, explains why they matter, and how to create both simple and complex animations using nodes.
+This guide introduces procedural animations, explains why they matter, and how to create both simple and complex animations using nodes.
 
 
 :::tip  
@@ -70,7 +70,7 @@ Here’s a breakdown of a Rotation and Scale animation workflow:
     - Scale: Connect the eased time directly. This makes the object grow from invisible (0) to full size (1).
     - Rotation: Multiply the eased time by 360 so the object rotates one full turn.
 
-4. Combine effects using a Matrix Input/Output Node. This allows scale and rotation to be applied together.
+4. Combine effects using a Matrix Input Node. This allows scale and rotation to be applied together.
 
     ![A complex procedural graph](/img/bopGraph.png "A complex procedural graph")
 
@@ -89,4 +89,5 @@ The result is a smooth, rotating, and scaling animation, perfect for attention-g
 To learn more:
 - [Easing](https://pixieditor.net/docs/usage/node-graph/nodes/animation/easing/).
 - [Normalized time](https://pixieditor.net/docs/usage/node-graph/nodes/animation/time#normalized-time)
+- [Matrix](https://pixieditor.net/docs/usage/node-graph/property-sockets/#-matrix3x3)
 
