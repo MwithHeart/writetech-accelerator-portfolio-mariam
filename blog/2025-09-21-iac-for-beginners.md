@@ -11,10 +11,10 @@ This guide introduces Infrastructure as Code (IaC) in a beginner-friendly way. Y
 
 ---
 
-Imagine you’re planning a party, you could use the: 
+Imagine you’re planning a party, you could use either of these: 
 - **Manual way:** You go to the market yourself to buy chairs, tables, plates, drinks, balloons, and fans one by one.
 
-- **Automated way:** You write a list, "50 chairs, 5 tables, 3 fans", and give it to an event planner to set it up for you.  
+- **Automated way:** You write a list: 50 chairs, 5 tables, 3 fans. Then give it to an event planner to set it up for you.  
 
 With the first option, you risk forgetting something important, like cake. But with the second option, the planner sets everything up exactly how you want.  
 
@@ -23,7 +23,18 @@ With the first option, you risk forgetting something important, like cake. But w
 > - The event planner would be an IaC tool such as Terraform, CloudFormation, etc.  
 
 
-Instead of manually clicking through cloud dashboards to create servers and networks, you write code describing your infrastructure, and the IaC tool sets everything up consistently.
+Instead of manually clicking through cloud dashboards to create servers and networks, you write code describing your infrastructure, and the IaC tool sets everything up consistently.  
+
+<figure style={{ textAlign: "center" }}>
+  <img 
+    src="/img/blog/infrastructure-as-code.jpg" 
+    alt="Infrastructure as Code" 
+    style={{ width: "90%", borderRadius: "8px" }}
+  />
+  <figcaption style={{ fontSize: "0.9rem", color: "#666", marginTop: "8px" }}>
+    Image source: Freepik 
+  </figcaption>
+</figure>
 
 ---
 

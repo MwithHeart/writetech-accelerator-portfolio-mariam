@@ -1,5 +1,5 @@
 ---
-title: POST/payment/verify
+title: Verify a payment
 ---
 
 # Verify a payment

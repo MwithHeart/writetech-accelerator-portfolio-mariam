@@ -129,14 +129,14 @@ Try to understand the code yourself before reading the explanation below:
 2. Add one regex per line for links you want to ignore. Example:  
 
     ```
-    # Ignore all LinkedIn links
+    # Ignore LinkedIn links
     https://(www\.)?linkedin\.com\/.*
 
-    # Ignore all Dribble links
+    # Ignore Dribble links
     https://(www\.)?dribble\.com\/.*
 
 
-    # Ignore all Substack links
+    # Ignore Substack links
     https://(www\.)?substack\.com\/.*
     ```
 

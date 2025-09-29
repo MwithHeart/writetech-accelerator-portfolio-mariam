@@ -1,5 +1,5 @@
 ---
-title: Sample Page
+title: Sample page
 
 ---
 # A Sample Page

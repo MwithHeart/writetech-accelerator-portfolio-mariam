@@ -1,6 +1,6 @@
 ---
 # id: api-reference
-title: API Linting
+title: API linting
 # sidebar_position: 2
 ---
 

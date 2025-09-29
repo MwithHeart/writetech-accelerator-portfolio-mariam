@@ -1,5 +1,5 @@
 ---
-title: Project Overview
+title: Project overview
 ---
 # AI for documentation
 

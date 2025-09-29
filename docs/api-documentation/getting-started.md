@@ -1,54 +1,55 @@
 ---
-title: Getting Started
+title: Getting started
 # sidebar_position: 1
 toc_min_heading: 2
 toc_max_heading: 6
 ---
-# Getting started
-👋🏽 Welcome to the Chimoney API, the API that allows you to make payouts seamlessly.
+
+# Getting started   
+
+👋🏽 **Welcome to the Chimoney API**   
+This API allows you to make payouts seamlessly, whether you are a business owner or a developer just exploring the platform.
 
 
 ## Create an account
-Create an account and learn how to use the Chimoney API.
+Before you can start making API calls, you need to create an account. 
 
-### Businesses Integrating with the API: 
-1. Create an account **for businesses** at [dash.chimoney.io](https://dash.chimoney.io).
-1. In the collapsible menu, below the list, click **Developers**.
-1. Choose **Create an app**.
-1. You get an API key once you name your app. Ensure you keep it safe.
-
-:::note  
-You can also book a demo or email **support@chimoney.io** to request **"Verification and API Access"**. Ensure you include links to your website and some details about your use case. 
-:::
+### Businesses integrating with the API
+1. Create an account at [dash.chimoney.io](https://dash.chimoney.io). The dashboard page shows up after this.
+2. Book a demo or email support@chimoney.io to request "Verification and API Access". Ensure you include links to your website and explain its use case briefly.
+ Alternatively book-a-demo
 
 
 ### Developers testing the API 
-1. Create an account **for individuals** at the [sandbox environment](https://Sandbox.Chimoney.io).
-:::note
-Account is funded with $1000 of test amount
+1. Create an account at the [sandbox](https://Sandbox.Chimoney.io).
+:::note  
+Your sandbox account is automatically funded with $1000 of test credits.
 :::
 
-2. Download the app.
-3. Click the Organizations tab on the dashboard.
-4. Create an Organization/Team
-4. Click  the Developers tab to create an app and use the API keys to access the sandbox endpoints.
+2. Download the Chimoney app.
+3. Click the Organizations tab on the dashboard and create an organization/team.
+4. Open the Developers tab to create an app and use the API keys to access the sandbox endpoints.
 
-- You can watch [this video](https://www.loom.com/share/436303eb69c44f0d9757ea0c655bed89?sid=b6a0f661-721c-4731-9873-ae6f2d25780) on how to get started with the Chimoney Sandbox.
+▶️ Watch this [video](https://www.loom.com/share/436303eb69c44f0d9757ea0c655bed89?sid=b6a0f661-721c-4731-9873-ae6f2d25780) for step-by-step guidance.  
 
 ## The base URLs
-1. Production URL: ```https://api.chimoney.io```
+Chimoney provides two base URLs: one for production, one for sandbox testing:  
 
-2. Sandbox testing URL: ```https://api-v2-sandbox.chimoney.io```
+| Environment | URL |
+|-------------|-----|
+| Production | `https://api.chimoney.io` |
+| Sandbox | `https://api-v2-sandbox.chimoney.io` |
 
-## Authentication process
-The Chimoney API uses an API Key for authentication, which can be obtained from the [Chimoney developer dashboard](https://dash.chimoney.io/developers).
+## Authentication 
+The Chimoney API uses an API Key for authentication. 
+1. Copy your API key from the [developer dashboard](https://dash.chimoney.io/developers).
 
-Copy your API-KEY from the Developers tab and paste it into ```Authorization``` under ```Headers```.
+2. Include it in the Authorization header of every request.  
 
 
 ## Required headers
-- Authorization: (YOUR_API_KEY)  
-- Content-Type: application/json
+- Authorization: `<YOUR_API_KEY>`
+- Content-type: application/json
 
 
 ## A sample postman request

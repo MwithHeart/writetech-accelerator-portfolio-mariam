@@ -5,7 +5,11 @@ toc_min_heading: 2
 toc_max_heading: 6
 ---
 # Chimoney API documentation project
-This project documents some endpoints from the Chimoney REST API, including a Getting Started section.
+This project documents key parts of the Chimoney REST API including:
+    - A Getting started section.
+    - Endpoints written in markowm
+    - Endpoint rendered using Redocly. 
+    
 
 ## What is Chimoney?
 Chimoney is a platform that allows for efficient payments across borders, multi-currency wallets and global payouts. For more information, see the [Chimoney](https://chimoney.io) official website.
