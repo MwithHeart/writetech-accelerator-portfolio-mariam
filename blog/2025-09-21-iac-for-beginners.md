@@ -12,7 +12,7 @@ This guide introduces Infrastructure as Code (IaC) in a beginner-friendly way. Y
 ---
 
 Imagine you’re planning a party, you could use either of these: 
-- **Manual way:** You go to the market yourself to buy chairs, tables, plates, drinks, balloons, and fans one by one.
+- **Manual way:** You go to the market yourself to buy chairs, tables, plates, and balloons, one by one.
 
 - **Automated way:** You write a list: 50 chairs, 5 tables, 3 fans. Then give it to an event planner to set it up for you.  
 
@@ -142,10 +142,10 @@ This creates an `S3 bucket` in AWS with just a few lines of code.
 ---
 
 ## 🎯 Conclusion
-Infrastructure as Code is like having a recipe for your infrastructure—consistent, repeatable, and easy to share. By automating infrastructure setup, you save time, avoid errors, and make scaling easier.
+Infrastructure as Code is like having a recipe for your infrastructure; consistent, repeatable, and easy to share. By automating infrastructure setup, you save time, avoid errors, and make scaling easier.
 
 > **Next Step**  
-> Build something real, like a developer environment with an EC2 instance. This should be a great addition to your portfolio or resume.
+> Build something real, like a developer environment with an EC2 instance. 
 
 
 

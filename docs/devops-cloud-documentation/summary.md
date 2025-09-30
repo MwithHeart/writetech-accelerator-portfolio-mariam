@@ -43,7 +43,7 @@ Rather than just theory, this documentation walks you through creating your firs
 
 ---
 
-## Key takeaways
+## 🗝️ Key takeaways
 At the end of this guide, you should have a solid understanding of:    
 - How GitHub Actions workflows are structured.
 - How to run and customize an action.
@@ -51,7 +51,7 @@ At the end of this guide, you should have a solid understanding of:
 
 ---
 
-## Next steps
+## 🪜 Next steps
 
 Here are a few directions to explore next:
 
