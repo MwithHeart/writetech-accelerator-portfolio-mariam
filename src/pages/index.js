@@ -77,12 +77,7 @@ function HomepageHeader() {
                 <span className={styles.buttonIcon}>📚</span>
                 Explore Portfolio
               </Link>
-              <Link
-                className={clsx('button', styles.secondaryButton)}
-                to="/docs/ai-documentation/intro">
-                <span className={styles.buttonIcon}>🤖</span>
-                AI Documentation
-              </Link>
+              
               <Link
                 className={clsx('button', styles.secondaryButton)}
                 to="/blog">

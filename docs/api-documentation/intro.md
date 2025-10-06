@@ -6,8 +6,8 @@ toc_max_heading: 6
 ---
 # Chimoney API documentation project
 This project documents key parts of the Chimoney REST API including:
-    - A Getting started section.
-    - Endpoints written in markowm
+    - A getting started section.
+    - Endpoints written in markown
     - Endpoint rendered using Redocly. 
     
 

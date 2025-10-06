@@ -2,12 +2,12 @@
 title: Example:Lychee Link Checker
 ---
 
-# Example: Using Lychee Broken Link Checker
+# Example: Using Lychee Link Checker
 :::tip  
-You can explore many prebuilt workflows on the GitHub Actions Marketplace.     
+You can explore many prebuilt workflows on the [GitHub Actions Marketplace](https://github.com/marketplace?type=actions).     
 :::  
 
-This section explains how to set up a real CI/CD pipeline using the Lychee Broken Link Checker. This automatically checks your repository for broken links every time you push or open a pull request.
+This section explains how to set up a real CI/CD pipeline using the Lychee Link Checker. This automatically checks your repository for broken links every time you push or open a pull request.
 
 1. In your project, create a file named ```links.yaml``` in the folder ```.github/workflows```. 
 2. Copy the following workflow code into ```links.yaml```. You can find it in the Lychee Link Checker README file.

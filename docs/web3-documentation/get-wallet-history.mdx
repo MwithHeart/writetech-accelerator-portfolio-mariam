@@ -1,0 +1,100 @@
+---
+title: Get wallet history
+description: Retrieve all historical transactions for a specific wallet address using the Moralis Web3 API.
+---
+
+
+Retrieve a detailed list of all transactions made by a wallet address, including transfers, smart contract interactions, and token movements.
+
+---
+
+## Description
+
+**GET** `/wallets/:address/history`  
+
+The wallet history API lets you view everything that’s happened with a specific wallet address on a supported blockchain. Use it to:
+
+- Track user activity or spending history  
+- Analyze smart contract interactions  
+- Build dashboards or analytics tools around wallet data  
+
+---
+
+## Parameters
+
+| Name      | Type      | Required | Default | Description                                                                       |
+| --------- | --------- | -------- | ------- | --------------------------------------------------------------------------------- |
+| `address` | `string`  |  Yes    | —       | The wallet address you want to retrieve history for. Must be a valid EVM address. |
+| `chain`   | `string`  |  No     | `eth`   | The blockchain network to query (e.g., `eth`, `polygon`, `bsc`)            |
+| `from_block`   | `number` | No     | —    | The minimum block number from which to get the transactions |
+| `to_block` |  `number` | No     | —    | The maximum block number from which to get the transactions |
+| `cursor` | `string`  | No     | —       | The cursor returned in the previous response (used for getting the next page) |
+| `order`  | `string`  | No     | DESC      | The order of the result, in ascending (ASC) or descending (DESC)      |
+| `nft_metadata` |  `boolean`  | No     | —       | Whether the result should contain the nft metadata |
+
+:::tip   
+The maximum value for `limit` is 100. If you need to fetch more results, use pagination with the `cursor` parameter.  
+:::
+
+---
+
+## Example request 
+
+  ```bash
+  curl -X GET \
+    "https://deep-index.moralis.io/api/v2.2/wallets/0x123456789/history?chain=eth&limit=3" \
+    -H "accept: application/json" \
+    -H "X-API-Key: YOUR_API_KEY"
+  ````
+
+---
+
+## Example response
+
+    ```json
+    {
+    "cursor": "eyJhb...",
+    "page": 1,
+    "page_size": 3,
+    "total": 102,
+    "result": [
+        {
+        "hash": "0x97d...",
+        "block_number": 18103562,
+        "from_address": "0x123...",
+        "to_address": "0xdef...",
+        "value": "1000000000000000000",
+        "value_formatted": "1.0 ETH",
+        "status": "success",
+        "timestamp": "2024-05-22T10:00:00Z"
+        }
+    ]
+    }
+    ```
+
+---
+
+## Common pitfalls
+
+| Issue                  | Why It Happens                                                               | How to Fix                                                                 |
+| ---------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Transactions missing   | Some blockchains (like Polygon) may delay indexing.                          | Try again in a few minutes or confirm the transaction on a block explorer. |
+| `status` field missing | Not all blockchains return success/failure data for historical transactions. | Use Moralis Streams API for live confirmation instead.                     |
+| Empty result set       | The wallet may be new or not active on the chain queried.                    | Double-check the address and chain value.                                  |
+
+---
+
+## Key notes
+
+* Works for EVM-compatible chains only (Ethereum, Polygon, BSC, Avalanche, etc.)
+* Data is indexed and refreshed every few seconds, but may slightly lag behind real-time
+* Rate limits apply depending on your Moralis plan
+
+---
+
+## Example use case
+
+> Suppose you’re building a dashboard that shows a user’s on-chain activity.
+> You can use this endpoint to fetch their transaction history and visualize it using a chart or table — similar to how Etherscan displays it.
+
+---

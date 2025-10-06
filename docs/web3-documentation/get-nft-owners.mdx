@@ -1,0 +1,74 @@
+---
+title: Get NFT owners by contract
+
+---
+
+
+
+Retrieve a list of all wallet addresses that currently own NFTs from a specific collection.
+
+---
+
+## Description
+**GET** `/nft/:address/unique-owners`  
+
+This endpoint helps you check who owns the NFTs from a particular NFT smart contract. For example, you can find out how many wallets currently hold tokens from the Bored Ape Yacht Club collection.
+
+
+## Headers
+
+| Header | Value |
+|---------|--------|
+| `X-API-Key` | Your Moralis API key |
+| `accept` | `application/json` |
+
+
+## Parameters
+
+| Parameter | Type | Required | Description |
+|------------|------|-----------|--------------|
+| `address` | `string` | Yes | The contract address of the NFT collection. Example: `0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d` |
+| `chain` | `string` | No | Blockchain network to query. Options: `eth`, `polygon`, `bsc`, `avalanche`. Default: `eth`. |
+| `limit` | `string` | No | The desired page size of the result.
+| `cursor` | `string` | No | The cursor returned in the previous response (used to get the next page).
+
+
+## Example request (cURL)
+
+  ```bash
+  curl -X GET \
+    "https://deep-index.moralis.io/api/v2/nft/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d/owners?chain=eth" \
+    -H "accept: application/json" \
+    -H "X-API-Key: YOUR_API_KEY"  
+  ````
+
+
+
+
+## Example response
+
+    ```json
+    {
+    "total": 3,
+    "page": 1,
+    "page_size": 100,
+    "result": [
+      {
+        "token_address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+        "owner_of": "0x9fB8...3A7C",
+        "token_id": "1",
+        "amount": "1"
+        }
+      ]
+    }
+    ```   
+
+
+## Common errors
+| Error Code         | Meaning                    | Possible Cause                             |
+| ------------------ | -------------------------- | ------------------------------------------ |
+| 400 Bad Request  | Invalid address format     | Check if your contract address is correct  |
+| 401 Unauthorized | Missing or invalid API key | Make sure your `X-API-Key` header is set   |
+| 404 Not Found    | Contract not found         | The contract might not exist on that chain |
+
+

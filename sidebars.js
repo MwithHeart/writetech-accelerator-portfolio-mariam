@@ -51,12 +51,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'DevOps & Cloud Documentation',
-      items: ['devops-cloud-documentation/summary', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/reflection'],
+      items: ['devops-cloud-documentation/intro', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/summary', 'devops-cloud-documentation/reflection'],
     },
     {
       type: 'category',
       label: 'Technical Writing in Web3',
-      items: ['web3-documentation/intro'],
+      items: ['web3-documentation/api-intro', 'web3-documentation/get-nft-owners', 'web3-documentation/get-wallet-history' ],
     },
   ],
 };

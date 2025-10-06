@@ -14,14 +14,9 @@ Run Vale automatically on all Markdown files in the repository whenever a commit
 
 **What I did:**
 
-* Created a `.vale.ini` file at the root of the repository. 
 * Linted markdown files using the google developers style guide. 
 * Added a sample page in this folder alongside a page that contains some of the results of the vale lint. 
-* Added a GitHub Action workflow in `.github/workflows/vale.yml` that:
-
-
-
-✅ With this setup, every commit automatically triggers linting and link checks, making sure documentation stays polished and error-free.
+* Added a GitHub Action workflow that automatically triggers linting and link checks whenever there's a push. 
 
 ---
 
@@ -33,7 +28,7 @@ Validate OpenAPI 3.0 specs using Spectral and generate static API documentation 
 
 **What I did:**
 
-* Created a `.spectral.yaml` configuration file at the root of the repo.
+* Created a spectral configuration file at the root of the repo.
 * Added a GitHub Action workflow that:
 
   * Runs Spectral linting on all `.yaml` files in the repository.
