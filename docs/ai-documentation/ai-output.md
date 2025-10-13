@@ -173,6 +173,7 @@ Yes, the Apache 2.0 license permits commercial use, modification, and distributi
 ### Are there any usage restrictions?
 Follow standard ethical AI guidelines and avoid generating harmful, biased, or misleading content.
 
+
 ## Support and resources
 
 ### Where can I find more documentation?

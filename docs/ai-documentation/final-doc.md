@@ -24,9 +24,9 @@ This page contains the edited, polished version of the AI-generated FAQs.
     Qwen3 supports 119 languages and dialects, significantly expanding multilingual capabilities compared to its predecessors.
 
 
-### Is Qwen3 open-source?
+### Is Qwen3 open source?
 
-Yes—Qwen3 is fully **open-sourced under the Apache 2.0 license**. The models are accessible via platforms like Hugging Face and ModelScope.
+Yes—Qwen3 is fully **open sourced under the Apache 2.0 license**. The models are accessible via platforms like Hugging Face and ModelScope.
 
 
 
