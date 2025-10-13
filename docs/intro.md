@@ -21,23 +21,23 @@ I specialize in **API documentation** and **DevOps**, focusing on how clear comm
 **My mission:** to bridge the gap between humans and technology, one clear explanation at a time.  
 
 
-## 💡 Areas of Expertise & Recent Projects
+## 💡 Areas of expertise & recent projects
 
 | Project | Overview |
 | ------- | -------- |
-| [Documentation tooling & Static Site Generators (SSGs)](./documentation-tooling/intro.mdx) | Explored SSGs and refined the documentation for **PixiEditor**, an open-source 2D drawing tool, focusing on structure, clarity, and consistency |
+| [Documentation tooling & Static Site Generators (SSGs)](./documentation-tooling/intro.mdx) | Explored SSGs and refined the documentation for **PixiEditor**, an open source 2D drawing tool, focusing on structure, clarity, and consistency |
 | [API documentation & OpenAPI](./api-documentation/intro) | Improved documentation for selected **Chimoney API** endpoints and rendered an OpenAPI specification using a plugin. Currently exploring similar improvements for *Dribbble API* |
 | [Documentation automation](./docs-automation/intro) | Implemented automated checks using **Vale**, **Spectral**, and **GitHub Actions** to ensure style consistency, link integrity, and build reliability across projects |
-| [AI for Documentation](./ai-documentation/intro) | Documented the model card for **Qwen-3**, including its features and capabilities.Also, generated FAQs using AI-powered assistance to improve information accessibility |
+| [AI for documentation](./ai-documentation/intro) | Documented the model card for **Qwen-3**, including its features and capabilities. Also, generated FAQs using AI-powered assistance to improve information accessibility |
 | [DevOps & cloud documentation](./devops-cloud-documentation/intro) | Wrote a practical, step-by-step guide for setting up **GitHub Actions**, including a sample CI/CD pipeline integrated with Lychee broken-link checker |
 | [Technical writing in Web3](./web3-documentation/api-intro) | Documented two endpoints of the **Moralis Web3 API**, creating clear reference guides that simplify blockchain concepts for developers |
 
 
-## 🧩 My Approach  
+## 🧩 My approach  
 
-- **Collaboration:** I enjoy working with developers and product teams to build docs that align with real user needs.  
-- **Continuous Learning:** Every project is an opportunity to learn a new tool, framework, or documentation best practice.  
-- **Clarity & Empathy:** I write with both the engineer and the end user in mind, because great docs serve both.  
+- **Collaboration:** I enjoy working closely with developers and product teams to build docs that align with real user needs.  
+- **Continuous learning:** Every project is an opportunity to learn a new tool, framework, or documentation best practice.  
+- **Clarity & empathy:** I write with both the engineer and the end user in mind, because great docs serve both.  
 
 
 ## 🌐 Connect with me
