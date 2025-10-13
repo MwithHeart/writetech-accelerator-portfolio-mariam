@@ -14,7 +14,7 @@ Before diving in, you may find it helpful to review the [Basics of Animations](h
 
 ## What is Procedural animation
 
-Procedural animation refers to animations that are generated based on logic and input parameters. It's important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead.   
+Procedural animation refers to animations generated based on logic and input parameters. It's important to not confuse this with generative AI (such as ChatGPT), as those make use of prompts instead.   
 
 ---
 
@@ -23,7 +23,7 @@ Procedural animation refers to animations that are generated based on logic and 
 The following nodes are essential when working with procedural animations:  
 
 - **Time node:** Provides the current position in the animation timeline. It exposes:
-  - **Active Frame:** The current frame being displayed.
+  - **Active Frame:** The current frame that is displayed.
   - **Normalized Time;** A value between `0.0` (start of animation) and `1.0` (end of animation).  
 
     ![The time node](../img/time-node.png "The time node") 
@@ -62,7 +62,7 @@ You can chain multiple nodes together to create advanced effects.
 
 Here’s a breakdown of a Rotation and Scale animation workflow:
 
-1. Get the animation time (0 to 1 range) using the tiem node.
+1. Get the animation time (0 to 1 range) using the time node.
 
 2. Create a smoothing effect by connecting the time to Easing node. For example, use Elastic easing for a bounce effect.
 

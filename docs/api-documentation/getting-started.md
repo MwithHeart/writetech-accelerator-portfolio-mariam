@@ -16,7 +16,7 @@ Before you can start making API calls, you need to create an account.
 
 ### Businesses integrating with the API
 1. Create an account at [dash.chimoney.io](https://dash.chimoney.io). The dashboard page shows up after this.
-2. Book a demo or email support@chimoney.io to request "Verification and API Access". Ensure you include links to your website and explain its use case briefly.
+2. Book a demo or email support@chimoney.io to request "Verification and API Access." Ensure you include links to your website and explain its use case briefly.
  Alternatively book-a-demo
 
 
@@ -27,7 +27,7 @@ Your sandbox account is automatically funded with $1000 of test credits.
 :::
 
 2. Download the Chimoney app.
-3. Click the Organizations tab on the dashboard and create an organization/team.
+3. Click the Organizations tab on the dashboard and create an organization or team.
 4. Open the Developers tab to create an app and use the API keys to access the sandbox endpoints.
 
 ▶️ Watch this [video](https://www.loom.com/share/436303eb69c44f0d9757ea0c655bed89?sid=b6a0f661-721c-4731-9873-ae6f2d25780) for step-by-step guidance.  

@@ -6,7 +6,7 @@ This project focused on auditing and restructuring documentation for PixiEditor 
 
 The documentation plays a key role in helping users get started with these features. As part of this project, I identified usability issues and proposed structural improvements to make the documentation more user-friendly.  
 
-## Scope of Work
+## Scope of work
 
 I performed the following tasks:  
 
@@ -16,6 +16,7 @@ I performed the following tasks:
 - **Standardized headings and tone** for consistency across the documentation.
 
 
+## Improved pages
 
 ### Page 1: Getting started 
 Introduces users to the basics of animations.  
@@ -25,9 +26,7 @@ Introduces users to the basics of animations.
 - Reorganized sections to reduce cognitive overload.
 - Properly annotated images for easy visibility
 
-
-**Example Improvement:** Clearer sentences and image with properly annotated image   
-   
+  
 ---
 
 ### Page 2: Create a node graph
@@ -38,7 +37,6 @@ Guides users on how to create their first Node Graph in PixiEditor.
 - Reorganized steps for logical flow.
 
 
-**Example Improvement:** Clearer sentences and reorganized steps for logical flow
    
 ---
 
@@ -52,7 +50,6 @@ Step-by-step guide to creating procedural animations.
 - Standardized heading levels for better readability.
 - Removed redundant explanations and clarified technical steps.
 
-**Example Improvement:** Clearer sentences and reorganized steps for logical flow
    
 ---
 

@@ -1,14 +1,14 @@
 ---
-title: Introduction
+title: Project overview
 # sidebar_position: 1
 toc_min_heading: 2
 toc_max_heading: 6
 ---
-# Chimoney API documentation project
+# Chimoney API documentation overview
 This project documents key parts of the Chimoney REST API including:
-    - A getting started section.
-    - Endpoints written in markown
-    - Endpoint rendered using Redocly. 
+    - A getting started section
+    - Endpoints written in markdown
+    - Endpoint rendered using the docusaurus open-api plugin
     
 
 ## What is Chimoney?
@@ -33,4 +33,13 @@ Chimoney is a platform that allows for efficient payments across borders, multi-
 ## Key takeaways
 - I learnt how to test API endpoints with postman. 
 - I learnt how to interpret OpenAPI specification
+
+## Tools & tech stack used
+
+| Tool / Technology | Purpose |
+|-------------------|---------|
+| YAML | The format for writing OpenAPI specification |
+| Swagger Editor | Writing OpenAPI specification |
+| Postman | For testing API endpoints |
+| Docusaurus OpenAPI plugin | For rendering the YAML file |
 

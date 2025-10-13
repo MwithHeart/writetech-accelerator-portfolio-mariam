@@ -1,7 +1,7 @@
 ---
-title: Introduction
+title: Project overview
 ---
-# Documentation automation 
+# Documentation automation overview
 
 This folder contains the work I did regarding documentation automation. The goal was to practice setting up automated workflows for linting, validation, and documentation using tools like Vale, Spectral, and Redocly.
 

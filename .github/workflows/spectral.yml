@@ -18,6 +18,7 @@ jobs:
         
 
   buildSSG:
+    name: Build OpenAPI spec with Redocly
     runs-on: ubuntu-latest
 
     steps:
