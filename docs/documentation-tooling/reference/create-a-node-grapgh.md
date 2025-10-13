@@ -73,7 +73,7 @@ PixiEditor 2.0.0.97 includes several node categories:
 
 ---
 
-## Understanding sockets
+## Sockets
 
 Nodes have colored sockets (circles or diamonds) on their sides. These are used to connect nodes together and transfer data between them.  
 

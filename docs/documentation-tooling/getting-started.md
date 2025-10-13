@@ -45,16 +45,16 @@ The timeline contains several components:
     From left to right:
     - **Eye icon** - Show/hide the layer
     - **Image thumbnail** - Displays the layer's base image
-    - **Layer name** – Name of the layer (e.g., *Slime*)  
-    - **Collapse button** – Minimize the layer to save space
+    - **Layer name** - Name of the layer (e.g., *Slime*)  
+    - **Collapse button** - Minimize the layer to save space
 
 5. **Playback controls**  
     -  ⏮ **Step start**- - Jump to the beginning of the cel  
-    - ◀ **Step Back** – Move back one frame  
-    - ▶ **Play** – Play the animation  
-    - ▶ **Step Forward** – Move forward one frame  
-    - ⏭ **Step End** – Jump to the end of the cel  
-    - **00:00.08 / 00:01.75** – Current time and total time in `mm:ss.ff` format. `mm` for minutes, `ss` for seconds, `ff` for hundredths of a second  
+    - ◀ **Step Back** - Move back one frame  
+    - ▶ **Play** - Play the animation  
+    - ▶ **Step Forward** - Move forward one frame  
+    - ⏭ **Step End** - Jump to the end of the cel  
+    - **00:00.08 / 00:01.75** - Current time and total time in `mm:ss.ff` format. `mm` for minutes, `ss` for seconds, `ff` for hundredths of a second  
 
 6. **Frame bar**   
     This is the top slider that lets you:
@@ -72,7 +72,7 @@ The timeline contains several components:
 ## Animating projects
 PixiEditor supports two main animation methods:
 
-### 1. Frame-by-Frame animation
+### 1. Frame-by-frame animation
 
 The traditional method of animation. You draw each frame manually to create smooth transitions.
 
