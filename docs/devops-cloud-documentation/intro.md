@@ -10,22 +10,22 @@ It is designed to help **absolute beginners** understand the core concepts of CI
 
 Rather than just theory, this documentation walks you through creating your first workflow step by step, and uses a practical example (Lychee Broken Link Checker) to make things more concrete.  
 
----
 
-## 📂 Project files  
+
+## Project files  
 
 | File               | Description |
 |--------------------|-------------|
-| `overview.md`      | Beginner-friendly introduction to CI/CD and why it matters. |
-| `setup.md`         | Getting started guide for setting up your first GitHub Actions workflow. |
-| `step-by-step.md`  | Real-world example using the Lychee Broken Link Checker Action. |
-| `troubleshooting.md` | List of common issues you may encounter and how to fix them. |
-| `summary.md`       | Recap of what we covered and suggestions for next steps. |
-| `reflection.md`    | My personal takeaways from creating this documentation project. |
+| [ntroduction to CI/CD using GitHub Actions](./overview.md)      | Beginner-friendly introduction to CI/CD and why it matters. |
+| [Getting started](./setup.md)         | Getting started guide for setting up your first GitHub Actions workflow. |
+| [Example:Lychee Link Checker](./step-by-step.md)  | Real-world example using the Lychee Broken Link Checker Action. |
+| [Troubleshooting](./troubleshooting.md) | List of common issues you may encounter and how to fix them. |
+| [Summary](./summary.md)       | Recap of what we covered and suggestions for next steps. |
+| [Reflection](./reflection.md)  | My personal takeaways from creating this documentation project. |
 
----
 
-## 📜 Who this guide is for  
+
+## Who this guide is for  
 
 - **Beginners** who want to learn CI/CD from scratch.  
 - **Developers** who want to quickly set up link checking for documentation.  
