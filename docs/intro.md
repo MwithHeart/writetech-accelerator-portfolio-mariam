@@ -9,26 +9,35 @@ title: Welcome
 This portfolio is continuously evolving. So expect updates and experiments as I grow.
 ::: 
 
-Hello there 😊
+Hello there  
 
 I’m **Mariam Yusuff**, a technical writer who believes documentation should feel like a guide, not a maze.  
 
-I specialize in **API documentation**, **DevOps**, and **Web3**; three worlds that power how developers build, ship, and interact with technology. My goal is to make complex systems understandable through clear, developer-friendly docs built with modern Docs-as-Code workflows and static site generators.  
+I specialize in **API documentation** and **DevOps**, focusing on how clear communication improves **developer experience** and **product usability**. My work is to make complex systems understandable through clear, developer-friendly docs built with modern Docs-as-Code workflows and static site generators.  
 
 
-> Think of this portfolio as my **sandbox of clarity**, where I explore, test, and refine how documentation can serve both people better.  
+> Think of this portfolio as my **sandbox of clarity**, where I explore, test, and refine how documentation can help developers move faster and teams collaborate better.  
 
-My mission: to bridge the gap between humans and technology, one clear explanation at a time.  
+**My mission:** to bridge the gap between humans and technology, one clear explanation at a time.  
 
 
-## 🚀 Core competencies
+## 💡 Areas of Expertise & Recent Projects
 
-1. [Documentation tooling & Static Site Generators](./documentation-tooling/intro.mdx) - How-to guide for setting up a docs-as-code workflow 
-2. [API documentation & OpenAPI](./api-documentation/intro) - Improved documentation for selected endpoints from Chimoney API and rendering an OpenAPI specification file using Redocly
-3. [Documentation automation](./docs-automation/intro) -  Automated checks (style, links, builds) using tools like Vale, Spectral, and GitHub Actions  
-4. [AI for Documentation](./ai-documentation/intro) - Documenting the Qwen-3 AI model and geenrating the FAQs using AI
-5. [DevOps & cloud documentation](./devops-cloud-documentation/intro) - Step-by-step guide for setting up itHub Actions
-6. [Technical writing in Web3](./web3-documentation/intro)
+| Project | Overview |
+| ------- | -------- |
+| [Documentation tooling & Static Site Generators (SSGs)](./documentation-tooling/intro.mdx) | Explored SSGs and refined the documentation for **PixiEditor**, an open-source 2D drawing tool, focusing on structure, clarity, and consistency |
+| [API documentation & OpenAPI](./api-documentation/intro) | Improved documentation for selected **Chimoney API** endpoints and rendered an OpenAPI specification using a plugin. Currently exploring similar improvements for *Dribbble API* |
+| [Documentation automation](./docs-automation/intro) | Implemented automated checks using **Vale**, **Spectral**, and **GitHub Actions** to ensure style consistency, link integrity, and build reliability across projects |
+| [AI for Documentation](./ai-documentation/intro) | Documented the model card for **Qwen-3**, including its features and capabilities.Also, generated FAQs using AI-powered assistance to improve information accessibility |
+| [DevOps & cloud documentation](./devops-cloud-documentation/intro) | Wrote a practical, step-by-step guide for setting up **GitHub Actions**, including a sample CI/CD pipeline integrated with Lychee broken-link checker |
+| [Technical writing in Web3](./web3-documentation/api-intro) | Documented two endpoints of the **Moralis Web3 API**, creating clear reference guides that simplify blockchain concepts for developers |
+
+
+## 🧩 My Approach  
+
+- **Collaboration:** I enjoy working with developers and product teams to build docs that align with real user needs.  
+- **Continuous Learning:** Every project is an opportunity to learn a new tool, framework, or documentation best practice.  
+- **Clarity & Empathy:** I write with both the engineer and the end user in mind, because great docs serve both.  
 
 
 ## 🌐 Connect with me
