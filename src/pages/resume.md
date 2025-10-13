@@ -7,9 +7,9 @@ Technical writer with a passion for simplifying complex technical concepts into 
 
 
 **🛠️SKILLS**
-- **Technical Writing & Documentation:** Developer documentation (API Docs, CI/CD Guides, README files), Docs-As-Code practices
+- ** Writing & Documentation:** Developer documentation (API Docs, CI/CD Guides, README files), Docs-As-Code practices
 - **Tools & Platforms:** GitHub, Swagger (OpenAPI 3.0), Postman, Markdown, VS Code, Google Docs, GitHub, Docusaurus, Vercel
-- **Technical Knowledge:** CI/CD Concepts (pipelines, workflows, automation), REST APIs, Python basics
+- ** Knowledge:** CI/CD Concepts (pipelines, workflows, automation), REST APIs, Python basics
 - **Soft Skills:** Collaboration, Teamwork, Communication, Critical Thinking, Adaptability, Time management
 
 ---

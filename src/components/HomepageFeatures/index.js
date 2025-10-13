@@ -23,7 +23,7 @@ const FeatureList = [
     //Svg: require('@site/static/img/bridge.svg').default,
     description: (
       <>
-        Whether you're tackling satellite tech, or other complex concepts, I deliver documentation that’s easy to follow and thoughtfully structured.
+        From step-by-step guides to structuring API docs, I focus on turning complex concepts into content that's easy to follow. Because great docs are quiet engineers, they solve problems before support tickets do.
       </>
     ),
   },
@@ -33,17 +33,18 @@ const FeatureList = [
    // Svg: require('@site/static/img/intent.svg').default,
     description: (
       <>
-        From technical tutorials to informative articles, my writing always starts with “Who am I helping, and what do they need?""
+        Every piece I write starts with the question: "Who am I helping, and what do they need?" From in-depth tutorials to technical articles, I write with purpose because great docs serve people, not just products.
+
       </>
     ),
   },
   {
-    title: 'User-Centric Editing',
+    title: 'User-centric editing',
     Svg: UserCentricSvg,
    // Svg: require('@site/static/img/user-centric.svg').default,
     description: (
       <>
-        I ensure documentation works for all users, whether that means simplifying jargon, adding visuals, or sharing process notes to explain how solutions were crafted.
+        Whether it’s an API reference or a Quickstart guide, I write with empathy. My goal is to make the reader’s next step obvious and their learning curve smoother. Clarity isn’t an afterthought; it’s the goal.
       </>
     ),
   },

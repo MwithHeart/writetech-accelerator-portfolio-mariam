@@ -13,8 +13,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Mariam Yusuff',
-  tagline: 'Docs shouldn’t feel like a puzzle with missing pieces.' +
-            ' I turn complexity into clarity, so your users leave with ‘aha!’ 💡 moments, not ‘ugh’ 😩 headaches.',
+  tagline: 'I make technology make sense. ' +
+            'I turn tangled tech into crystal-clear content; the kind that makes developers and users leave with ‘aha!’ 💡 moments not ‘ugh’ 😩 headaches.',
   favicon: 'favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

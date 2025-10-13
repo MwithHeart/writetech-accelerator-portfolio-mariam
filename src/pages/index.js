@@ -49,7 +49,7 @@ function HomepageHeader() {
           <div className={styles.chatInterface}>
             <div className={styles.messageContainer}>
               <div className={styles.userMessage}>
-                <span className={styles.messageText}>"Show me what you’ve got in technical writing."</span>
+                <span className={styles.messageText}>"So, what do you do?"</span>
               </div>
               
               <div className={styles.aiMessage}>
