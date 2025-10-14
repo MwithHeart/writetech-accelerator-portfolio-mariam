@@ -13,7 +13,7 @@ In this guide, I generated an html file (api.html) from the yaml file (api-doc.y
 When you run:
 ```npx @redocly/cli@latest build-docs docs/docs-automation/api-doc.yaml -o static/api.html```
 
-Note: the code is on one line
+**Note:** the code is on one line
 
 
 You should now have a file at: 
@@ -27,13 +27,15 @@ Check if that file actually exists in your project.
 ## Step 2: How Docusaurus serves static/
 Docusaurus serves any file in the static/ folder at the root URL.
 So:
-  - static/api.html → http://localhost:3000/api.html
-  - static/something/test.txt → http://localhost:3000/something/test.txt
+  - `static/api.html` will open at http://localhost:3000/api.html
+  - `static/something/test.txt` will open at http://localhost:3000/something/test.txt
 
 
-⚡ If you can’t open http://localhost:3000/api.html, it means either:
-  - the file wasn’t generated, or
-  - it’s in the wrong folder (not under static/).
+>Note:  
+>If you can’t open http://localhost:3000/api.html, it means either:
+>  - the file wasn’t generated, or
+>  - it’s in the wrong folder (not under static/)
+
 
 
 
