@@ -16,9 +16,9 @@ Rather than just theory, this documentation walks you through creating your firs
 
 | File               | Description |
 |--------------------|-------------|
-| [ntroduction to CI/CD using GitHub Actions](./overview.md)      | Beginner-friendly introduction to CI/CD and why it matters. |
+| [Introduction to CI/CD using GitHub Actions](./overview.md)      | Beginner-friendly introduction to CI/CD and why it matters. |
 | [Getting started](./setup.md)         | Getting started guide for setting up your first GitHub Actions workflow. |
-| [Example:Lychee Link Checker](./step-by-step.md)  | Real-world example using the Lychee Broken Link Checker Action. |
+| [Example: Lychee Link Checker](./step-by-step.md)  | Real-world example using the Lychee Broken Link Checker Action. |
 | [Troubleshooting](./troubleshooting.md) | List of common issues you may encounter and how to fix them. |
 | [Summary](./summary.md)       | Recap of what we covered and suggestions for next steps. |
 | [Reflection](./reflection.md)  | My personal takeaways from creating this documentation project. |

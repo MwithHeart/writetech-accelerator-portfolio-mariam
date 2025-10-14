@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-## 🌐 Web3 API documentation project
+# Web3 documentation project overview
 
 In this project, I explored Web3 API documentation, focusing on how blockchain-based APIs differ from traditional Web2 APIs.  
 
@@ -10,7 +10,7 @@ I worked primarily with the [Moralis Web3 API](https://moralis.io/); a Web3 deve
 
 ---
 
-## 💡 What I learned
+# 💡 What I learned
 
 * How Web3 APIs interact with decentralized networks through smart contracts and blockchain nodes.
 * How to simplify blockchain jargon (like token addresses and wallet hashes) for readers from a Web2 background.
@@ -19,7 +19,7 @@ I worked primarily with the [Moralis Web3 API](https://moralis.io/); a Web3 deve
 
 ---
 
-## ⚙️ Tools & tech stack used
+## Tools & tech stack used
 
 | Tool / Technology | Purpose |
 |-------------------|---------|
@@ -32,7 +32,7 @@ I worked primarily with the [Moralis Web3 API](https://moralis.io/); a Web3 deve
 
 ---
 
-## 🔧 Improvements made
+## Improvements made
 
 - Rewrote poorly structured endpoint pages (e.g., *Get Wallet History*, *Get NFT Owners*) to include:
 
@@ -43,7 +43,7 @@ I worked primarily with the [Moralis Web3 API](https://moralis.io/); a Web3 deve
 
 ---
 
-## 🚀 Challenges
+## Challenges
 
 - Translating blockchain terminology into beginner-friendly language.
 - Balancing accuracy with simplicity to avoid overwhelming new developers.
