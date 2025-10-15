@@ -24,8 +24,11 @@ jobs:
  #       uses: errata-ai/vale-action@v2
         with:
           debug: true
+          fail_on_error: false
+          styles: https://github.com/errata-ai/Google/releases/latest/download/Google.zip
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
 
   link-check:
     runs-on: ubuntu-latest

@@ -1,9 +1,8 @@
 ---
-// sidebar_position: 1
 title: Welcome
-description: Portfolio of Mariam Yusuff: Technical Writer for APIs, DevOps, and Cloud Documentation.
-
+description: Portfolio of Mariam Yusuff - Technical Writer for APIs, DevOps, and Cloud Documentation.
 ---
+
 # Welcome to my technical writing portfolio
 
 Hello. I’m **Mariam Yusuff**, a Technical Writer specializing in **APIs, DevOps, and Cloud documentation**.  
