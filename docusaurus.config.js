@@ -166,7 +166,7 @@ const config = {
               },
               {
                 label: 'Technical Writing in Web3',
-                to: '/docs/web3-documentation/intro',
+                to: '/docs/web3-documentation/api-intro',
               },
             ],
           },

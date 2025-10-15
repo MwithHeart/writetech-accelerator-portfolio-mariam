@@ -35,7 +35,13 @@ const sidebars = {
         'api-documentation/reference/verify',
         'api-documentation/api-reference/generates-an-invoice-based-on-provided-instructions',
       ],
-      
+    },
+    {
+      type: 'category',
+      label: 'Dribble API',
+      items: [
+        'dribble-api/intro', 
+      ],
     },
     {
       type: 'category',
