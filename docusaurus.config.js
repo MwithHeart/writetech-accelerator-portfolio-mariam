@@ -73,12 +73,13 @@ const config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam/',
+          editUrl: undefined,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -134,6 +135,11 @@ const config = {
           {
             href: 'https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'mailto:mariamyusuff0000@gmail.com',
+            label: 'Hire me',
             position: 'right',
           },
         ],

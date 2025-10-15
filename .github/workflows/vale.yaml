@@ -1,4 +1,4 @@
-name: Vale Linting Assignment
+name: Vale Linting For My Portfolio & Link Check
 
 on:
   push:
@@ -11,17 +11,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup Vale
+        uses: errata-ai/vale-action@v2.1.1
+      # Step 1: Checkout repo
+  #    - name: Checkout
+   #     uses: actions/checkout@v4
+
+      # Step 2: Run Vale
+#      - name: Run Vale
+ #       uses: errata-ai/vale-action@v2
+        with:
+          debug: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
       # Step 1: Checkout repo
       - name: Checkout
         uses: actions/checkout@v4
-
-      # Step 2: Run Vale
-      - name: Run Vale
-        uses: errata-ai/vale-action@v2
-        with:
-          files: '**/*.md'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # Step 3: Setup Node.js (needed for markdown-link-check)
       - name: Setup Node.js

@@ -23,7 +23,7 @@ const FeatureList = [
     //Svg: require('@site/static/img/bridge.svg').default,
     description: (
       <>
-        From step-by-step guides to structuring API docs, I focus on turning complex concepts into content that's easy to follow. Because great docs are quiet engineers, they solve problems before support tickets do.
+        I turn complex APIs, cloud workflows, and DevOps tools into docs that reduce onboarding time, cut errors, and empower engineers.
       </>
     ),
   },
@@ -33,8 +33,7 @@ const FeatureList = [
    // Svg: require('@site/static/img/intent.svg').default,
     description: (
       <>
-        Every piece I write starts with the question: "Who am I helping, and what do they need?" From in-depth tutorials to technical articles, I write with purpose because great docs serve people, not just products.
-
+      I write using the docs-as-code approach; with Markdown, GitHub, Docusaurus, Mintlify. To ensure documentation actually lives with the code and doesn't come as an afterthought
       </>
     ),
   },

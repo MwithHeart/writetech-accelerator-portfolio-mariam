@@ -22,7 +22,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Documentation Tooling',
+      label: 'Documentation Auditing',
       items: ['documentation-tooling/intro','documentation-tooling/getting-started', 'documentation-tooling/reference/create-a-node-grapgh', 'documentation-tooling/reference/procedural-animations'],
     },
     {
@@ -35,6 +35,11 @@ const sidebars = {
         'api-documentation/reference/verify',
         'api-documentation/api-reference/generates-an-invoice-based-on-provided-instructions',
       ],
+    },
+    {
+      type: 'category',
+      label: 'DevOps & Cloud Documentation',
+      items: ['devops-cloud-documentation/intro', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/summary', 'devops-cloud-documentation/reflection'],
     },
     {
       type: 'category',
@@ -53,11 +58,6 @@ const sidebars = {
       type: 'category',
       label: 'AI for Documentation',
       items: ['ai-documentation/intro', 'ai-documentation/model-card', 'ai-documentation/prompt-used', 'ai-documentation/ai-output', 'ai-documentation/final-doc'],
-    },
-    {
-      type: 'category',
-      label: 'DevOps & Cloud Documentation',
-      items: ['devops-cloud-documentation/intro', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/summary', 'devops-cloud-documentation/reflection'],
     },
     {
       type: 'category',
