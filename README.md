@@ -7,7 +7,7 @@ I help developers and product teams transform complex systems such as APIs, CI/C
     - **Minimizes confusion**  
     - **Boosts developer productivity**  
 
-💡 **My mission:** To bridge the gap between humans and technology, one clear explanation at a time.
+> **My mission:** to bridge the gap between humans and technology, one clear explanation at a time.
 
 🚀 Want to elevate your product docs or API guides?   
 [Let’s collaborate →](mailto:mariamyusuff0000@gmail.com)
@@ -16,17 +16,17 @@ I help developers and product teams transform complex systems such as APIs, CI/C
 ## 💡 Core expertise & featured projects
 | Project | Overview |
 | ------- | -------- |
-| [Documentation tooling & Static Site Generators (SSGs)](./documentation-tooling/intro.mdx) | Explored SSGs and refined the documentation for **PixiEditor**, an open source 2D drawing tool, focusing on structure, clarity, and consistency |
-| [API documentation & OpenAPI](./api-documentation/intro) | Improved documentation for selected **Chimoney API** endpoints and rendered an OpenAPI specification using a plugin. Currently exploring similar improvements for *Dribbble API* |
-| [Documentation automation](./docs-automation/intro) | Implemented automated checks using **Vale**, **Spectral**, and **GitHub Actions** to ensure style consistency, link integrity, and build reliability across projects |
-| [AI for documentation](./ai-documentation/intro) | Documented the model card for **Qwen-3**, including its features and capabilities. Also, generated FAQs using AI-powered assistance to improve information accessibility |
-| [DevOps & cloud documentation](./devops-cloud-documentation/intro) | Wrote a practical, step-by-step guide for setting up **GitHub Actions**, including a sample CI/CD pipeline integrated with Lychee broken-link checker |
+| [Documentation auditing & SSGs](./documentation-tooling/intro.mdx) | Explored SSGs and refined the documentation for **PixiEditor**, an open source 2D drawing tool, focusing on structure, clarity, and consistency |
+| [API documentation & OpenAPI](./api-documentation/intro) | Enhanced documentation for **Chimoney API,** rendered OpenAPI specs, and drafted new **Dribbble API** Quickstart & Authentication pages. | 
+| [DevOps & Cloud documentation](./devops-cloud-documentation/intro) | Created a step-by-step guide for setting up **GitHub Actions**, including a sample CI/CD pipeline with Lychee broken-link checker |
+| [Docs automation](./docs-automation/intro) | Implemented automated checks using **Vale**, **Spectral**, and **GitHub Actions** to ensure style consistency, link integrity, and build reliability across projects |
+| [AI for documentation](./ai-documentation/intro) | Documented a model card for **Qwen-3** and used AI-assisted techniques to generate FAQ sections for accessibility. |
 | [Technical writing in Web3](./web3-documentation/api-intro) | Documented two endpoints of the **Moralis Web3 API**, creating clear reference guides that simplify blockchain concepts for developers |
 
 ## 🧩 My approach  
 - **Collaboration:** Partnering with engineers, designers, and PMs to build docs grounded in real workflows.  
-- **Continuous Learning:**  Every project is an opportunity to learn a new tool, framework, or documentation best practice.
-- **Clarity & Empathy:** Writing for both the engineer and the end-user — because great docs serve both.
+- **Continuous learning:**  Every project is an opportunity to learn a new tool, framework, or documentation best practice.
+- **Clarity & empathy:** Writing for both the engineer and the end-user, because great docs serve both.
 
 
 ## 🛠️ Tools & technologies
@@ -40,4 +40,4 @@ I help developers and product teams transform complex systems such as APIs, CI/C
 - 💼 **LinkedIn:** [linkedin.com/in/yusuff-mariam](https://linkedin.com/in/yusuff-mariam)  
 - 📝 **Hashnode:** [mwithheart.hashnode.dev](https://mwithheart.hashnode.dev)  
 
-💬 Let’s talk about improving developer experiences through documentation!
+💬 Let’s talk about improving developer experiences through documentation.

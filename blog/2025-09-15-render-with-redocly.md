@@ -27,8 +27,8 @@ Check if that file actually exists in your project.
 ## Step 2: How Docusaurus serves static/
 Docusaurus serves any file in the static/ folder at the root URL.
 So:
-  - `static/api.html` will open at http://localhost:3000/api.html
-  - `static/something/test.txt` will open at http://localhost:3000/something/test.txt
+  - `static/api.html` opens at http://localhost:3000/api.html
+  - `static/something/test.txt` opens at http://localhost:3000/something/test.txt
 
 
 >Note:  
@@ -43,7 +43,7 @@ So:
 In your docs/docs-automation/api-ref.md, the link should be:
 [Open API Reference](/api.html)
 
-## Step 4. Embed inside Docs page
+## Step 4. Embed inside a page
 If you want to guarantee it loads within Docusaurus pages, add an iframe to api-ref.md:  
 ```  <iframe
     src="/api.html"
