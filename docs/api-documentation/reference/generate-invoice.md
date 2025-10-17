@@ -3,7 +3,7 @@ title: Generate invoice with AI
 ---
 
 # Generate invoice with AI
-Generates invoice data based on clear prompts in the request body. 
+Generates invoice data based on clear prompts in the request body 
 
 ### Endpoint
 POST 
