@@ -137,6 +137,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+            {
+            href: 'https://mwithheart.mintlify.app/',
+            label: 'API Docs Portfolio',
+            position: 'right',
+          },
           {
             href: 'mailto:mariamyusuff0000@gmail.com',
             label: 'Hire me',
