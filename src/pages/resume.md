@@ -72,15 +72,24 @@ import styles from './index.module.css';
           <h4>PixiEditor Documentation Refinement</h4>
           <ul className={styles.accomplishments}>
             <li>Optimized the content structure of an open-source 2D graphics editor using Docusaurus and Markdown, improving readability and reducing cognitive load on users</li>
-            <li>View Project → PixiEditor Documentation</li>
+            <li>View Project → [PixiEditor Documentation](https://writetech-accelerator-portfolio-mar.vercel.app/docs/documentation-tooling/intro)</li>
           </ul>
         </div>
+        <div className={styles.timelineDot}></div>
+        <div className={styles.timelineContent}>
+          <h4>DevOps CI/CD Documentation</h4>
+          <ul className={styles.accomplishments}>
+            <li>Documented a complete guide for setting up GitHub Actions with Lychee Broken Link Checker, showcasing knowledge of pipelines and workflow automation </li>
+            <li>View Project → [CI/CD Guide](https://writetech-accelerator-portfolio-mar.vercel.app/docs/devops-cloud-documentation/intro)</li>
+          </ul>
+        </div>
+
         <div className={styles.timelineDot}></div>
         <div className={styles.timelineContent}>
           <h4>Chimoney API Reference  </h4>
           <ul className={styles.accomplishments}>
             <li>Documented two API endpoints for the fintech using Swagger and tested with Postman; improved endpoint clarity and usability</li>
-            <li>View Project → Chimoney API Reference</li>
+            <li>View Project → [Chimoney API Reference](https://writetech-accelerator-portfolio-mar.vercel.app/docs/api-documentation/intro)</li>
           </ul>
         </div>
 
@@ -89,15 +98,7 @@ import styles from './index.module.css';
           <h4>Dribble API Docs</h4>
           <ul className={styles.accomplishments}>
             <li>Created Quickstart and Authentication guides while applying Docs-as-Code approach to reduce onboarding time for developers.</li>
-            <li>View Project → Dribble API Docs</li>
-          </ul>
-        </div>
-        <div className={styles.timelineDot}></div>
-        <div className={styles.timelineContent}>
-          <h4>DevOps CI/CD Documentation</h4>
-          <ul className={styles.accomplishments}>
-            <li>Documented a complete guide for setting up GitHub Actions with Lychee Broken Link Checker, showcasing knowledge of pipelines and workflow automation </li>
-            <li>View Project → CI/CD Guide</li>
+            <li>View Project → [Dribble API Docs](https://mwithheart.mintlify.app/dribble-api/introduction)</li>
           </ul>
         </div>
       </div>
@@ -107,7 +108,7 @@ import styles from './index.module.css';
         <div className={styles.timelineDot}></div>
         <div className={styles.timelineContent}>
           <h3>Technical Writer (Volunteer)</h3>
-          <p className={styles.timelineMeta}>The BIRDS Satellite Project • Dec 2024 - June 2025</p>
+          <p className={styles.timelineMeta}>The [BIRDS Satellite Project](https://github.com/BIRDSOpenSource/BIRDSOpenSource.github.io) • Dec 2024 - June 2025</p>
           <ul className={styles.accomplishments}>
             <li>Rewrote and structured existing documentation using the Docs-as-Code approach</li>
             <li>Developed glossaries and structured new documentation to improve usability and comprehension</li>
@@ -135,7 +136,7 @@ import styles from './index.module.css';
           <h3>Technical Writing Certification</h3>
           <p className={styles.timelineMeta}>WriteTech Hub • June 2024</p>
           <p>Comprehensive training in technical documentation principles and practices.</p>
-          <a href="https://drive.google.com/file/d/1myzsZPpX95Wua4Jnb05hMc3g90GBmqeH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.certificateLink}>
+          <a href="https://drive.google.com/file/d/1myzsZPpX95Wua4Jnb05hMc3g90GBmqeH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.certificateLink}> 
             View Certificate
           </a>
         </div>
@@ -143,18 +144,20 @@ import styles from './index.module.css';
     </div>
   </div>
 
-
-       <div className={styles.timelineItem}>
-        <div className={styles.timelineDot}></div>
-        <div className={styles.timelineContent}>
-          <h3>Technical Writing Certification</h3>
-          <p className={styles.timelineMeta}>WriteTech Hub • June 2024</p>
-          <p>Comprehensive training in technical documentation principles and practices.</p>
-          <a href="https://drive.google.com/file/d/1myzsZPpX95Wua4Jnb05hMc3g90GBmqeH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.certificateLink}>
-            View Certificate
-          </a>
-        </div>
-      </div>
+  
+  <div className={styles.resumeSection}>
+  <h2 className={styles.sectionTitle}><span className={styles.sectionIcon}></span> Selected Writing Samples</h2>
+  <div className={styles.skillsGrid}>
+    <div className={styles.skillCategory}>
+      <ul>
+      <li>[Infrastructure as Code for Beginners](https://writetech-accelerator-portfolio-mar.vercel.app/blog/iac-for-beginners)</li>
+      <li>[Introduction to CI/CD Using GitHub Actions](https://writetech-accelerator-portfolio-mariam-mwrs52g37.vercel.app/docs/devops-cloud-documentation/overview)</li>
+      <li>[Machine Learning: A Beginner's Guide](https://mwithheart.hashnode.dev/machine-learning-a-beginners-guide)</li>
+      <li>[Understanding Numpy Arrays in Python](https://mwithheart.hashnode.dev/understanding-numpy-arrays-in-python)</li>
+      </ul>
+    </div>
+  </div>
+  </div>
 
   <div className={styles.resumeFooter}>
     <p>Last updated: October 2025</p>
