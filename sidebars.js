@@ -22,12 +22,12 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Documentation Auditing',
+      label: 'Documentation auditing',
       items: ['documentation-tooling/intro','documentation-tooling/getting-started', 'documentation-tooling/reference/create-a-node-grapgh', 'documentation-tooling/reference/procedural-animations'],
     },
     {
       type: 'category',
-      label: 'API Documentation & OpenAPI',
+      label: 'API documentation & OpenAPI',
       items: [
         'api-documentation/intro', 
         'api-documentation/getting-started', 
@@ -38,7 +38,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'DevOps & Cloud Documentation',
+      label: 'DevOps & Cloud documentation',
       items: ['devops-cloud-documentation/intro', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/summary', 'devops-cloud-documentation/reflection'],
     },
     {
@@ -50,13 +50,13 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Documentation Automation',
+      label: 'Documentation automation',
       items: ['docs-automation/intro', 'docs-automation/sample-page', 'docs-automation/report', 'docs-automation/api-ref',
       ],
     },
     {
       type: 'category',
-      label: 'AI for Documentation',
+      label: 'AI for documentation',
       items: ['ai-documentation/intro', 'ai-documentation/model-card', 'ai-documentation/prompt-used', 'ai-documentation/ai-output', 'ai-documentation/final-doc'],
     },
     {
