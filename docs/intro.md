@@ -16,98 +16,91 @@ description: Portfolio of Mariam Yusuff - Technical Writer for APIs, DevOps, and
   
   <div className="features-grid">
     <div className="feature-card">
-      <h3>Reduces Onboarding Time</h3>
+      <h3>Reduce onboarding time</h3>
       <p>Clear documentation that helps new developers get up to speed quickly.</p>
     </div>
     
     <div className="feature-card">
-      <h3>Minimizes Confusion</h3>
+      <h3>Minimize confusion</h3>
       <p>Precise, well-structured content that answers questions before they're asked.</p>
     </div>
     
     <div className="feature-card">
-      <h3>Boosts Productivity</h3>
+      <h3>Boost productivity</h3>
       <p>Documentation that helps developers focus on building, not figuring things out.</p>
     </div>
   </div>
   
   <div className="cta-container">
-    <a href="mailto:mariamyusuff0000@gmail.com" className="cta-button">
-      Let's Work Together →
-    </a>
+    <p>
+      [Let's Work Together →](mailto:mariamyusuff0000@gmail.com)
+    </p>
   </div>
 </div>
 
-      
-## Core expertise & featured projects
 
+
+
+<h2>Core expertise & featured projects</h2>
 <div className="project-card">
   <div className="project-header">
-    <h3>Documentation auditing & SSGs</h3>
+    <h3>01. Documentation auditing & SSGs</h3>
   </div>
   <div className="project-content">
     <p>Explored Static Site Generators and refined the documentation for <strong>PixiEditor</strong>, an open source 2D drawing tool, focusing on structure, clarity, and consistency.</p>
-    <a href="./documentation-tooling/intro.mdx" className="project-link">View Project →</a>
+    <li>[View Project →](./documentation-tooling/intro.mdx) </li>
   </div>
 </div>
 
 <div className="project-card">
   <div className="project-header">
-    <h3>API documentation & OpenAPI</h3>
+    <h3>02. API documentation & OpenAPI</h3>
   </div>
   <div className="project-content">
     <p>Enhanced documentation for **Chimoney API,** rendered OpenAPI specs, and drafted new **Dribbble API** Quickstart & Authentication pages.</p>
-    <a href="./api-documentation/intro" className="project-link">View Project →</a>
+    <li>[View Project →](./api-documentation/intro) </li>
   </div>
 </div>
 
 <div className="project-card">
   <div className="project-header">
-    <h3>DevOps & Cloud documentation</h3>
+    <h3>03. DevOps & Cloud documentation</h3>
   </div>
   <div className="project-content">
     <p>Created a step-by-step guide for setting up **GitHub Actions**, including a sample CI/CD pipeline with Lychee broken-link checker.</p>
-    <a href="./devops-cloud-documentation/intro" className="project-link">View Project →</a>
+    <li>[View Project →](./devops-cloud-documentation/intro) </li>
+    
   </div>
 </div>
 
 <div className="project-card">
   <div className="project-header">
-    <h3>DevOps & Cloud documentation</h3>
-  </div>
-  <div className="project-content">
-    <p>Created a step-by-step guide for setting up **GitHub Actions**, including a sample CI/CD pipeline with Lychee broken-link checker.</p>
-    <a href="./devops-cloud-documentation/intro" className="project-link">View Project →</a>
-  </div>
-</div>
-
-<div className="project-card">
-  <div className="project-header">
-    <h3>Documentation automation</h3>
+    <h3>04. Documentation automation</h3>
   </div>
   <div className="project-content">
     <p>Implemented automated checks using **Vale**, **Spectral**, and **GitHub Actions** to ensure style consistency, link integrity, and build reliability across projects</p>
-    <a href="./docs-automation/intro" className="project-link">View Project →</a>
+    <li>[View Project →](./docs-automation/intro) </li>
   </div>
 </div>
 
 <div className="project-card">
   <div className="project-header">
-    <h3>AI for documentation</h3>
+    <h3>05. AI for documentation</h3>
   </div>
   <div className="project-content">
     <p>Documented a model card for <strong>Qwen-3</strong> and used AI-assisted techniques to generate FAQ sections for accessibility.</p>
-    <a href="./ai-documentation/intro" className="project-link">View Project →</a>
+    
+    <li>[View Project →](./ai-documentation/intro) </li>
   </div>
 </div>
 
 <div className="project-card">
   <div className="project-header">
-    <h3>Technical writing in Web3</h3>
+    <h3>06. Technical writing in Web3</h3>
   </div>
   <div className="project-content">
     <p>Documented two endpoints of the <strong>Moralis Web3 API</strong>, creating clear reference guides that simplify blockchain concepts for developers.</p>
-    <a href="./web3-documentation/api-intro" className="project-link">View Project →</a>
+    <li>[View Project →](./web3-documentation/api-intro) </li>
   </div>
 </div>
 
@@ -228,8 +221,10 @@ description: Portfolio of Mariam Yusuff - Technical Writer for APIs, DevOps, and
   }
 `}</style>
 
-## My approach
-<div className="project-card">
+
+
+
+<h2>My approach</h2>
   <div className="project-content">
     <ul>
       <li>Collaboration: Partnering with engineers, designers, and PMs to build docs grounded in real workflows.</li>
@@ -237,30 +232,31 @@ description: Portfolio of Mariam Yusuff - Technical Writer for APIs, DevOps, and
       <li>Clarity & empathy: Writing for both the engineer and the end-user, because great docs serve both.</li>
     </ul>
   </div>
-</div>
+
+
 
 ## Tools & technologies
-<div className="project-card">
-  <div className="project-content">
-    <p>
-      `Docusaurus` • `Markdown` • `OpenAPI` • `GitHub Actions` • `Vale` • `Spectral` • `Postman` • `CI/CD`
-    </p>
-  </div>
-</div>
+    <div className="project-content">
+        <p>
+        `Docusaurus` • `Markdown` • `OpenAPI` • `GitHub Actions` • `Vale` • `Spectral` • `Postman` • `CI/CD`
+        </p>
+    </div>
 
 
-## Connect with me
-<div className="project-card">
-  <div className="project-content">
+<h2>Connect with me</h2>
+<div className="project-content">
     <ul>
      <li>📞 +2348069794294</li>
-     <li>📧<a href="mailto:mariamyusuff0000@gmail.com" className="project-link">Email →</a></li>
-     <li>💻 <a href="https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam" className="project-link">GitHub →</a></li>
-     <li>💼 <a href="https://linkedin.com/in/yusuff-mariam" className="project-link">LinkedIn →</a></li>
-     <li>📝 <a href="https://mwithheart.hashnode.dev" className="project-link">Hashnode →</a></li>
+     <li>📧 [Email →](mailto:mariamyusuff0000@gmail.com) </li>
+
+     <li>💻 [GitHub →](https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam)</li>
+
+     <li>💼 [LinkedIn →](https://linkedin.com/in/yusuff-mariam)</li>
+
+     <li>📝 [Hashnode →](https://mwithheart.hashnode.dev)</li>
     </ul>
-  </div>
 </div>
 
-💬 Let’s talk about improving developer experiences through documentation.
-
+<div className="project-card">
+    💬 Let’s talk about improving developer experiences through documentation.
+</div>

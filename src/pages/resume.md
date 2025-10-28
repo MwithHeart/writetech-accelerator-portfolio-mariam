@@ -136,9 +136,7 @@ import styles from './index.module.css';
           <h3>Technical Writing Certification</h3>
           <p className={styles.timelineMeta}>WriteTech Hub • June 2024</p>
           <p>Comprehensive training in technical documentation principles and practices.</p>
-          <a href="https://drive.google.com/file/d/1myzsZPpX95Wua4Jnb05hMc3g90GBmqeH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.certificateLink}> 
-            View Certificate
-          </a>
+          <p>[View Certificate →](https://drive.google.com/file/d/1myzsZPpX95Wua4Jnb05hMc3g90GBmqeH/view?usp=sharing)</p>
         </div>
       </div>
     </div>
