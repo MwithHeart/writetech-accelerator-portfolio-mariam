@@ -46,7 +46,7 @@ Authorization: Bearer YOUR_API_KEY
 | ```dueDate```         | date	      	    | The due date for the invoice  |
 | ```items```           | array             | List of invoice line items    |
 
-### Response example 
+### Response sample 
 In the JSON response below, the status is successful (Code 200) and it displays an invoice showing important details such as invoice number & date, sender, recipient, and others. 
 
     ```json
