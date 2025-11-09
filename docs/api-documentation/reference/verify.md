@@ -33,8 +33,18 @@ Authorization: Bearer YOUR_API_KEY
     }
     ```
 
+### Request sample in cURL
+
+    ```
+    curl -X POST https://api.example.com/payment/verify \
+    -H "Authorization: Bearer YOUR_API_KEY" \
+    -H "Content-Type: application/json" \
+    -d '{"id": "4cddf021-e908-4675-9ca3-59ad3b60046d_10_1721495354134", \
+        "subAccount": "4cddf021-e908-4675-9ca3-59ad3b60046d""}'
+    ```
+
 ## Response
-### Response example
+### Response sample
     ```
     {
         "status": "success",

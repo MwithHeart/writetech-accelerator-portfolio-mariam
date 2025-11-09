@@ -65,8 +65,8 @@ Below is a sample Postman request to generate invoice data with AI.
 
   :::tip  
   To test endpoints, you can do that in the documentation or import the postman collection by doing these:
-    1. Go to [get postman collection](https://documenter.getpostman.com/view/26097715/2sA3kXCzD2) page
-    2. Click **Run in Postman** at the top right corner of the page  
+    1. Go to [get postman collection](https://documenter.getpostman.com/view/26097715/2sA3kXCzD2) page.
+    2. Click **Run in Postman** at the top right corner of the page.
   :::
 
 

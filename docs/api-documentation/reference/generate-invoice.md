@@ -20,16 +20,15 @@ Authorization: Bearer YOUR_API_KEY
 | `Instruction`	            | string, required	        |  A clear instruction to generate an invoice  |
 
 
-### Request example:
+### Request sample:
     ```
     {
     "instruction": "Create an invoice from Jane Doe to Chimoney Incorporated for Web Dev Service which I provided for 4 months at $5/month and for Project Management cost of $100 with tax rate of 5%."
     }
 ```
 
-### Code sample
+### Request sample in cURL
 
-A code sample in curl:
     ```
     curl -X POST https://api.example.com/invoice/generate \
     -H "Authorization: Bearer YOUR_API_KEY" \
