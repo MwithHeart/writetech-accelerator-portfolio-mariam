@@ -6,18 +6,16 @@ This project documents key parts of the Chimoney REST API including:
     
 
 ## About Chimoney
-Chimoney is a platform that allows for efficient payments across borders, multi-currency wallets and global payouts.  
-You can check the website site [here](https://chimoney.io).
-
+Chimoney is a Fintech platform that allows for efficient payments across borders, multi-currency wallets and global payouts. For more information, see the [Chimoney website](https://chimoney.io).
 
 ## Improvements 
-1. **Improved Onboarding:** The actual ```getting started``` page seems like a simple guide that talks about products that can be built with the API. I restructured it into something more hands-on, including:
+1. **Improved onboarding:** The actual `Getting started` page seems like a simple guide that talks about products that can be built with the API. I restructured it into something more hands-on, including:
     - How to create an account
     - Authentication
     - The base URL
     - A sample Postman request
 
-2. **Structured Endpoint Pages** Created pages for two endpoints implementing proper structure and codeblocks for displaying responses. 
+2. **Structured endpoint pages** Created pages for two endpoints implementing proper structure and codeblocks for displaying responses. 
 
 
 ## Challenges
@@ -36,5 +34,4 @@ You can check the website site [here](https://chimoney.io).
 | Swagger Editor | Writing OpenAPI specification |
 | Postman | For testing API endpoints |
 | Docusaurus OpenAPI plugin | For rendering the YAML file |
-
 

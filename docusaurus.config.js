@@ -133,6 +133,11 @@ const config = {
           {to: '/blog', label: 'Technical Articles', position: 'left'},
           {to: '/resume', label: 'Resume', position: 'left'},
           {
+            href: 'mailto:mariamyusuff0000@gmail.com',
+            label: 'Hire me',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/MwithHeart/writetech-accelerator-portfolio-mariam',
             label: 'GitHub',
             position: 'right',
@@ -140,11 +145,6 @@ const config = {
             {
             href: 'https://mwithheart.mintlify.app/',
             label: 'API Docs Portfolio',
-            position: 'right',
-          },
-          {
-            href: 'mailto:mariamyusuff0000@gmail.com',
-            label: 'Hire me',
             position: 'right',
           },
         ],
@@ -156,23 +156,23 @@ const config = {
             title: 'Portfolio',
             items: [
               {
-                label: 'Documentation Tooling',
+                label: 'Documentation auditing',
                 to: '/docs/documentation-tooling/intro',
               },
               {
-                label: 'API Documentation',
+                label: 'API documentation & OpenAPI',
                 to: '/docs/api-documentation/intro',
               },
               {
-                label: 'Documentation Automation',
+                label: 'Documentation automation',
                 to: '/docs/docs-automation/intro',
               },
               {
-                label: 'AI for Documentation',
+                label: 'AI for documentation',
                 to: '/docs/ai-documentation/intro', 
               },
               {
-                label: 'DevOps & Cloud Documentation',
+                label: 'DevOps & Cloud documentation',
                 to: '/docs/devops-cloud-documentation/intro',
               },
               {
@@ -182,8 +182,12 @@ const config = {
             ],
           },
           {
-            title: 'Pages',
+            title: 'External Links',
             items: [
+              {
+                label: 'API Docs Portfolio',
+                href: 'https://mwithheart.mintlify.app/',
+              }, 
               {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/in/yusuff-mariam',

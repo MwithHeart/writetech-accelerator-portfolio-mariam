@@ -6,7 +6,7 @@ description: Portfolio of Mariam Yusuff - Technical Writer for APIs, DevOps, and
 <div className="hero">
   <div className="hero-content">
     <h1 className="hero-title">Mariam Yusuff</h1>
-    <p className="hero-subtitle">Technical Writer | API & Developer Documentation Specialist</p>
+    <p className="hero-subtitle">Technical Writer | API & ML Documentation Specialist</p>
   </div>
 </div>
 

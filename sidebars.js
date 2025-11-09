@@ -38,11 +38,6 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'DevOps & Cloud documentation',
-      items: ['devops-cloud-documentation/intro', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/summary', 'devops-cloud-documentation/reflection'],
-    },
-    {
-      type: 'category',
       label: 'Dribble API',
       items: [
         'dribble-api/intro', 
@@ -58,6 +53,11 @@ const sidebars = {
       type: 'category',
       label: 'AI for documentation',
       items: ['ai-documentation/intro', 'ai-documentation/model-card', 'ai-documentation/prompt-used', 'ai-documentation/ai-output', 'ai-documentation/final-doc'],
+    },
+    {
+      type: 'category',
+      label: 'DevOps & Cloud documentation',
+      items: ['devops-cloud-documentation/intro', 'devops-cloud-documentation/overview', 'devops-cloud-documentation/setup', 'devops-cloud-documentation/step-by-step', 'devops-cloud-documentation/troubleshooting', 'devops-cloud-documentation/summary', 'devops-cloud-documentation/reflection'],
     },
     {
       type: 'category',
