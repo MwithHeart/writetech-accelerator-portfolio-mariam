@@ -160,8 +160,8 @@ import styles from './index.module.css';
   <div className={styles.resumeFooter}>
     <p>Last updated: October 2025</p>
     <div className={styles.actionButtons}>
-      <a href="/static/img/Mariam_Yusuff_Technical_Writer_CV.pdf" download className={styles.downloadButton}>
-        Download PDF
+      <a href="https://drive.google.com/file/d/185QpU_45CFhvvGKkx5RF7bAtrQPb2pK_/view?usp=sharing" download className={styles.downloadButton}>
+        View As PDF
       </a>
       <a href="mailto:mariamyusuff0000@gmail.com" className={styles.contactButton}>
         Contact Me

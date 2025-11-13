@@ -18,7 +18,7 @@ Chimoney is a fintech platform that allows for efficient payments across borders
 2. **Structured endpoint pages** Created pages for two endpoints implementing proper structure and codeblocks for displaying responses. 
 
 3. **Rendered an endpoint using a plugin:** I documented an endpoint using the YAML format and rendered it using the [docusaurus open-api plugin](https://github.com/PaloAltoNetworks/docusaurus-openapi-docs). The following image is a screenshot of the YAML file.
-    ![The API endpoint in YAML](/static/img/YAML-schema.png "The API endpoint in YAML")
+    ![The API endpoint in YAML](/img/YAML-schema.png "The API endpoint in YAML")
 
 
 
